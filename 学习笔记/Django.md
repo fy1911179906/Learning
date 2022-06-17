@@ -1,3 +1,5 @@
+
+
 ## Django 配置
 
 ### Django 终端的基本命令
@@ -314,7 +316,7 @@ else:
 
 
 
-**GET 处理**
+### **GET 处理**
 
 GET 请求动作，一般用于向服务器获取数据，能够产生 GET 请求的场景：
 
@@ -325,6 +327,10 @@ GET 请求动作，一般用于向服务器获取数据，能够产生 GET 请�
 -form表单中的 method 为 get
 
 GET 请求方式中，如果有数据需要传递给服务器，通常会用查询字符串（Query String）传递【注意不要传递敏感数据】
+
+GET 传递参数的长度本身没有限制，即入口没有限制。但是特定的浏览器会对其传递的长度有所限制，即出口有限制。
+
+GET 请求通常用于查询。POST 请求通常用于增加（删除、修改也可以）。UPDATE 请求通常用于修改。DELETE 请求通常用于删除。
 
 URL 格式：xxx？参数名1=值1&参数名2=值2...
 
@@ -352,7 +358,7 @@ request.GET.getlist('参数名')，如果传参为?a=400&a=200&a=100。
 
 
 
-**POST 处理**
+### **POST 处理**
 
 POST 请求动作，一般用于向服务器提交大量/隐私数据数据
 
@@ -1006,7 +1012,7 @@ decimal_places：小数点后的数字数量
 
 **blank**
 
-设置为 True 时，字段可以为空。设置为 False 时，字段是必须填写的。 ------------**blank 为空与 null 不一样，blank 是在 admin 后台编辑时不能为空**
+设置为 True 时，字段可以为空。设置为 False 时，字段是必须填写的。 ------------**blank 为空与 null 不一样，blank 是在 admin 后台编辑时是否可以为空**
 
 **null**
 
@@ -1827,5 +1833,1187 @@ print(wife.name,"的老公是",wife.author.name)
 ```python
 author1 = Author.objects.get(name="王老师")
 author.wife.name
+```
+
+**一对一【模型创建】**
+
+```python
+# models.py
+class Author(models.Model):
+    #wife反向属性
+    name = models.CharField('姓名',max_length = 11)
+class Wife(models.Model):
+    name = models.CharField('姓名',max_length=11)
+    author = models.OneToOneField(Author,on_delete = models.CASCADE)
+```
+
+
+
+### 一对多映射
+
+
+
+**一对多 - 定义**
+
+一对多是表示现实事物间存在的一对多的对应关系。
+
+如：一个学校有多个班级，一个班级有多名学生，一本图书只能属于一个出版社，一个出版社允许出版多本图书。
+
+一对多需要明确出具体角色，在多表上设置外键
+
+**一对多 - 创建**
+
+语法：当一个A类对象可以关联多个B类对象时
+
+```python
+class A(models.Model):
+    pass 
+class  B(models.Model):
+    属性 = models.ForeignKey("一"的模型类,on_delete = xx)
+```
+
+**一对多【模型创建】**
+
+```python 
+# models.py
+class Publisher(models.Model):
+    #出版社[一]
+    name = models.CharField('出版社名称',max_length = 50)
+class Book(models.Model):
+    #书名[多]
+    title = models.CharField('书名',max_length=50)
+    publisher = models.ForeignKey(Publisher,on_delete = models.CASCADE)
+```
+
+**注意：ForeignKey 必须指定 on_delete 模式**
+
+
+
+**一对多【创建数据】**
+
+先创建 “一”，再创建 “多”。
+
+```python
+from .models import *
+pub1 = Publisher.objects.create(name = "清华大学出版社")
+b1 = Book.objects.create(title='C++',publisher = pub1)
+b2 = Book.objects.create(title='Java',publisher_id = 1)
+```
+
+
+
+**一对多【查询数据】**
+
+1、正向查询【通过 Book 查询 Publisher】
+
+通过 publisher 属性查询即可 -- book.publisher
+
+```python
+abook = Book.objects.get(id = 1)
+print(abook.title,'的出版社时是',abook.publisher.name)
+```
+
+2、反向查询【通过 Publisher 查询对应的所有的 Book】。需要用到**反向属性**
+
+```python
+# 通过出版社查询对应的书
+pub1 = Publisher.objects.get(name='清华大学出版社')
+books = pub1.book_set.all() #通过 book_set 获取 pub1 对应的多个 Book 数据对象
+# books = Book.objects.filter(publisher = pub1) # 也可以采用此方式获取
+print('清华大学出版社的书有：')
+for book in books:
+    print(book.title)
+```
+
+
+
+### 多对多映射
+
+
+
+**多对多 - 定义**
+
+多对多表达对象之间多对多复杂关系，如：每个人都有不同的学校（小学、初中、高中...），每个学校都不同的学生...
+
+mysql 中创建多对多需要依赖第三张表来实现
+
+Django 中无需手动创建第三张表，Django 自动完成
+
+语法：在关联的两个类中的任意一个类中，增加：
+
+属性 = models.ManyToManyField(MyModel)
+
+**多对多 - 创建**
+
+用法示例 - 创建模型类
+
+```python
+class Author(models.Model):
+    '''作者模型类'''
+    name = models.CharField('作家',max_length=50)
+    def __str__(self):
+        return self.name
+class Book(models.Model):
+    '''书模型类'''
+    title = models.CharField('书名',max_length=50)
+    authors = models.ManyToManyField(Author)
+    def __str__(self):
+        return self.title
+```
+
+**多对多【模型创建】**
+
+```python
+class Author(models.Model):
+    name = models.CharField('姓名',max_length=11)
+class Book(models.Model):
+    title = models.CharField('书名',max_length=11)
+    authors = models.ManyToManyField(Author)
+```
+
+**多对多【创建数据】**
+
+方案1：先创建 author，再关联 book
+
+```python
+author1 = Author.objects.create(name='吕老师')
+author2 = Author.objects.create(name='王老师')
+#吕老师和王老师同时写了一本 Python
+book11 = author1.book_set.create(title="Python")
+author2.book_set.add(book11)
+```
+
+方案2：先创建 book，再关联 author
+
+```python
+book = Book.objects.create(title='python1')
+# 郭晓闹和吕老师都参与了 python1 的创作
+author3 = book.authors.create(name='guoxiaonao')
+book.authors.add(author1)
+```
+
+**多对多【查询数据】**
+
+1、正向查询有多对多属性的对象查另一方，通过 Book 查询对应的所有的 Author，此时多对多属性等价于 objects。
+
+book.authors.all() -> 获取 book 对应的所有的 author 的信息
+
+book.authors.filter(age__gt=80) -> 获取 book 对应的作者中年龄大于80岁的作者的信息
+
+2、反向查询，通过 Author 查询对应的所有的 Book，利用反向属性 book_set
+
+author.book_set.all()
+
+author.book_set.filter()
+
+
+
+
+
+## Cookies 和 Session
+
+
+
+### 会话定义
+
+打开浏览器访问一个网站，到关闭浏览器结束此次访问，称之为一次会话
+
+HTTP 协议是无状态的，导致会话状态难以保持
+
+试想一下，如果不保持会话状态，在电商网站购物的场景体验？
+
+**Cookies 和 Session 就是为了保持会话状态而诞生的两个存储技术**
+
+![image-20211107223726285](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211107223726285.png)
+
+
+
+### Cookies
+
+**Cookies - 定义**
+
+cookies 是保存在客户端浏览器上的存储空间
+
+Chrome 浏览器可能通过开发者工具的 Application >> Storage >> 'Cookies' 查看和操作浏览器端所有的 Cookies 值
+
+火狐浏览器可能通过开发者工具的存储 -> Cookies 查看
+
+**Cookies - 特点**
+
+cookies 在浏览器上是以键 - 值对的形式进行存储的，键和值都是以ASCLL字符串的形式存储（不能是中文字符串）
+
+cookies 中的数据是按域存储隔离的，不同的域之间无法访问
+
+cookies 的内部的数据会在每次访问此网站时都会携带到服务器端，如果 cookies 过大会降低响应速度
+
+**Cookies 的使用 - 存储**
+
+HttpResponse.set_cookies(key,value='',max_age=None,expires=None)
+
+-- key.cookies 的名字
+
+-- value:cookies的值
+
+-- max_age:cookies 存活时间，秒为单位
+
+-- expires:具体过期时间
+
+-- 当不指定 max_age 和 expires 时，关闭浏览器时此数据失效
+
+存储示例：
+
+添加 cookies
+
+```python
+#为浏览器添加键为 my_var1，值为123，过期时间为1个小时的cookies
+responds = HttpResponse('已添加 my_var1，值为123')
+responds.set_cookies('my_var1',123,3600)
+return responds
+```
+
+修改 cookies
+
+```python
+#为浏览器添加键为 my_var1，修改值为456，过期时间为2个小时的cookies
+responds = HttpResponse('已修改 my_var1，值为456')
+responds.set_cookies('my_var1',456,3600*2)
+return responds
+```
+
+删除 cookies
+
+```python
+# 删除指定的 key 的 Cookies。如果 key 不存在则什么也不发生
+HttpResponse.delete_cookies(key)
+# 删除浏览器键为 my_var1 的 cookies
+response = HTTPResponse('已删除 my_var1')
+response.delete_cookies('my_var1')
+return response
+```
+
+获取 cookies
+
+通过 request.COOKIES 绑定的字典（dict）获取客户端的 COOKIES 数据
+
+```python
+# 通过 request.COOKIES 绑定的字典（dict）获取客户端的 COOKIES 数据
+value = request.COOKIES.get('cookies名','默认值')
+# 获取浏览器中 my_var 变量对应的值
+value = request.COOKIES.get('my_var1','没有值')
+print('cookies my_var1 =',value)
+return HttpResponse('my_var1:'+ value)
+```
+
+通过两个方法读写 cookies
+
+```python
+def set_cookies(request):
+    resp =HttpResponse('set cookies is ok')
+    resp.set_cookies('uname','gxn',500)
+    return resp
+def get_cookies(request):
+    value = request.COOKIES.get('uname')
+    return HttpResponse('value is %s'%(value))
+```
+
+![image-20211108175247831](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211108175247831.png)
+
+![image-20211108175947391](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211108175947391.png)
+
+
+
+### Session
+
+![image-20211108180121265](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211108180121265.png)
+
+
+
+**session 定义**
+
+session 是服务器上开辟一段空间用于保留浏览器和服务器交互时的重要数据
+
+实现方式
+
+--使用 session 需要在浏览器客户端启动 cookies，且在 cookies 中存储 sessionid
+
+--每个客户端都可以在服务器端有一个独立的 Session
+
+--注意：不同的请求者之间不会共享这个数据，与请求者一一对应。
+
+**session初始配置**
+
+session.py 中配置 session
+
+1、向 INSTALLED_APPS 列表中添加：
+
+```python
+INSTALLED_APPS = [
+    # 启用 session 应用
+    'django.contrib.session',
+]
+```
+
+2、向 MIDDLEWARE 列表中添加：
+
+```python
+MIDDLEWARE = [
+    # 启用 session 中间件
+    'django.contrib.sessions.middleware.SessionMiddleware',
+]
+```
+
+**session 的使用**
+
+session 对象是一个类似于字典的 SessionStore 类型的对象，可以用类拟于字典的方式进行操作
+
+session 能够存储如字符串，整型，字典，列表等。
+
+1、保存 session 的值到服务器
+
+```python
+request.session['KEY'] = VALUE
+```
+
+2、获取 session 的值
+
+```python
+value = request.session['KEY']
+value = request.session.get('KEY',默认值)
+```
+
+3、删除 session
+
+```python
+del request.session['KEY']
+```
+
+settings.py 中相关配置项
+
+1、SESSION_COOKIES_AGE
+
+作用：指定 sessionid 在 cookies 中保存时长（默认是2周），如下：例如：SESSION_COOKIES_AGE = 60 * 60 * 24 * 7 * 2
+
+2、SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+设置只要浏览器关闭时，session 就失效（默认值为False）
+
+注意：Django 中的 session 数据存储在数据库中，所以使用 session 前需要确保已经执行过 migrate
+
+通过两种方法读写 session
+
+```python
+def set_session(request):
+    request.session['uname'] = 'wwc'
+    return HttpResponse('set session is ok')
+def get_cookies(request):
+    value = request.COOKIES.get('uname')
+    return HttpResponse('value is %s'%(value))
+```
+
+**Django session 的问题**
+
+1、django_session 表是单表设计；且该表数据量持续增持【浏览器故意删除 sessionid&过期数据未删除】
+
+2、可以每晚执行 python3 manage.py clearsessions 【该命令可删除已过期的 session 数据】
+
+**Cookies vs Session**
+
+| 种类    | 存储   | 安全性     |
+| ------- | ------ | ---------- |
+| Cookies | 浏览器 | 相对不安全 |
+| Session | 服务器 | 相对安全   |
+
+
+
+
+
+## 缓存
+
+
+
+### 缓存的定义
+
+定义：缓存是一类可以更快的读取数据的介质统称，也指其它可以加快数据读取的存储方式。一般用来存储临时数据，常用介质的是读取速度很快的内存。
+
+意义：视图渲染有一定的成本，数据库的频繁查询过高；所以对于低频变动的页面可以考虑使用缓存技术，减少实际渲染次数；用户拿到响应的时间成本会更低。
+
+**缓存案例**
+
+```python
+from django.shortcuts import render
+def index(request):
+    #时间复杂度极高的渲染
+    book_list = Book.objects.all() #->此处假设耗时2s
+    return render(request,'index.html',locals())
+```
+
+
+
+### 设置缓存
+
+**Django 中设置缓存 - 数据库缓存**
+
+将缓存的数据存储在您的数据库中，说明：
+
+尽管存储介质没有更换，但是当把一次负责查询的结果直接存储到表里，比如多个条件的过滤查询结果，可避免重复进行复杂查询，提升效率；
+
+```python
+CACHES = {
+    'default':{
+        'BACKEND':'django.core.cache.backends.db.DatabaseCache',
+        'LOCATION':'my_cache_table',
+        'TIMEOUT':300,#缓存保存时间，单位秒，默认值为300，
+        'OPTIONS':{
+            'MAX_ENTRIES':300,#缓存最大数据条数
+            'CULL_FREQUENCY':2,#缓存条数达到最大值时，删除1/x的缓存数据
+        }
+    }
+}
+```
+
+**Django 中设置缓存 - 本地内存缓存**
+
+数据缓存到服务器内存中，配置样例：
+
+```python
+CACHES = {
+    'default':{
+        'BACKEND':'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION':'unique-snowflake',
+    }
+}
+```
+
+**Django 中设置缓存 - 文件系统缓存**
+
+将缓存的数据存储到本地文件中，配置样例：
+
+```python
+CACHES = {
+    'default':{
+        'BACKEND':'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION':'/var/tmp.django_cache',#这个是文件夹的路径，例如：'c:\test\cache'
+    }
+}
+```
+
+
+
+### 使用缓存
+
+**Django 中使用缓存 - 视图函数中**
+
+样例：
+
+```python
+from django.views.decorators.cache import cache_page
+@cache_page(30) #->单位s
+def my_view(request):
+    pass
+```
+
+**Django 中使用缓存 - 路由中**
+
+样例：
+
+```python
+from django.views.decorators.cache import cache_page
+urlpatterns = [
+    path('foo/',cache_page(60)(my_view)),
+]
+```
+
+
+
+### 缓存 api 的使用
+
+先引入 cache 对象
+
+方式1：使用 caches['CACHE 配置 key'] 导入具体对象
+
+```python
+from django.core.cache import caches
+cache1 = caches['myalias']
+cache2 = caches['myalias_2']
+```
+
+方式2：from django.core.cache import cache 相当于直接引入 CACHES 配置项中的 'default' 项
+
+
+
+1、cache.set(key,value,timeout) - 存储缓存
+
+key：缓存的 key，字符串类型
+
+value：Python 对象
+
+timeout：缓存存储时间(s)，默认为 CACHES 的 TIMEOUT 值
+
+返回值：None
+
+2、cache.get(key) - 获取缓存
+
+key：缓存的 key
+
+返回值：为 key 的具体值，如果没有数据，则返回 None
+
+3、cache.add(key,value) - 存储缓存，只在 key 不存在时生效
+
+返回值：True[存储成功] or False [存储失败]
+
+4、cache.get_or_set(key,value,timeout) - 如果未获取到数据，则执行 set 操作
+
+返回值：value
+
+5、cache.set_many(dict,timeout) - 批量存储缓存
+
+dict：key 和 value 的字典
+
+timeout：存储时间(s)
+
+返回值：插入不成功的 key 的数组
+
+6、cache.get_many(key_list) - 批量获取缓存数据
+
+key_list：包含 key 的数组
+
+返回值：取到的 key 和 value 的字典
+
+7、cache.delete(key) - 删除 key 的缓存数据
+
+返回值：None
+
+8、cache.delete_many(key_list) - 批量删除
+
+返回值：None
+
+
+
+### 浏览器缓存定义
+
+浏览器也具备缓存技术，对于浏览来说，每次向服务器发出请求都是耗时的操作，如果本身浏览器内部就具备当前 Url 的内容，则一定时间内可以不必给浏览器发消息，从而提升网民体验，降低服务器请求压力
+
+![image-20211110221522837](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211110221522837.png)
+
+
+
+### 浏览器缓存 - 强缓存
+
+不会向服务器发送请求，直接从缓存中读取资源
+
+1、响应头 - Expires
+
+定义：缓存过期时间，用来指定资源到期的时间，是服务器端的具体的时间点
+
+样例：Expires:Thu,02 Apr 2030 05:14:08 GMT
+
+2、响应头 - Cache-Control
+
+HTTP/1.1 中，Cache-Control 主要用于控制网页缓存。比如当 ‘Cache-Control:max-age=120’ 代表请求创建时间后的120秒，缓存失效。
+
+说明：目前服务器会带着这两个头同时响应给浏览器，浏览器优先使用 Cache-Control
+
+![image-20211110222859965](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211110222859965.png)
+
+
+
+### 协商缓存
+
+强缓存中的数据一旦过期，还需要跟服务器进行通信，从而获取最新数据；
+
+思考？如果强缓存的数据是一些静态文件，大图片等；
+
+解答：考虑到大图片这类比较费带宽且不易变化的数据，强缓存时间到期后，浏览器会去跟服务器协商，当前缓存是否可用，如果可用，服务器不必返回数据，浏览器继续使用原来缓存的数据，如果文件不可用，则返回最新数据。
+
+**1、Last-Modified 响应头和 If-Modified-Since 请求头**
+
+说明：
+
+（1）Last-Modified 为文件的最近修改时间，浏览器第一次请求静态文件时，服务器如果返回 Last-Modified 响应头，则代表该资源为需协商的缓存
+
+（2）当缓存到期后，浏览器将获取到的 Last-Modified 值做为请求头 If-Modified-Since 的值，与服务器请求协商，服务端返回304响应码[响应体为空]，代表缓存继续使用，200响应码代表缓存不可用 [响应体为最新资源]。
+
+**2、ETag 响应头和 If-None-Match 请求头**
+
+说明：
+
+（1）Etag 是服务器响应请求时，返回当前资源文件的一个唯一标识（由服务器生成），只要资源有变化，Etag就会重新生成；
+
+（2）当缓存到期后，浏览器将 ETag 响应头的值做为 If-None-Match 请求头的值，与服务器发请求协商；服务器接到请求头后，比对文件标识，不一致则认为资源不可用，返回200响应码代表缓存不可用 [响应体为最新资源]，可用则服务端返回304响应码[响应体为空]，代表缓存继续使用。
+
+
+
+## 中间件
+
+
+
+### 中间件的定义
+
+中间件是 Django 请求/响应处理的钩子框架。它是一个轻量级的、低级的 “插件” 系统，用于全局改变 Django 的输入或输出。
+
+中间件以类的形式体现
+
+每个中间件组件负责做一些特定的功能。例如，Django 包含一个中间件组件 AuthenticationMiddleware，它使用会话将用户与请求关联起来。
+
+![image-20211117140033746](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117140033746.png)
+
+
+
+### 编写中间件
+
+中间件类须实现下列五个方法中的一个或多个：
+
+process_request(self,request)
+
+执行路由之前被调用，在每个请求上调用，返回 None 或 HttpResponse 对象
+
+process_view(self,request,callback,callback,callback_args,callback_kwargs)
+
+调用视图之前被调用，在每个请求上调用，返回 None 或 HttpResponse 对象
+
+process_response(self,request,response)
+
+所有响应返回浏览器被调用，在每个请求上调用，返回 HttpResponse 对象
+
+process_exception(self,request,exception)
+
+当处理过程中抛出异常时调用，返回一个 HttpResponse 对象
+
+process_template_response(self,request,response)
+
+在视图函数执行完毕且试图返回的对象中包含 render 方法时被调用；该方法需要返回实现了 render 方法的响应对象
+
+**注：**中间件中大多数方法在返回 None 时表示忽略当前操作进入下一项事件，当返回 HttpResponse 对象时表示此请求结束，直接返回给客户端。
+
+
+
+### 注册中间件
+
+setting.py 中需要注册一下自定义的中间件
+
+```python
+# file : setting.py
+MIDDLEWARE = [
+    ...
+    'middleware.mymiddleware.MyMW',
+    'middleware.mymiddleware.MyMW2'
+]
+```
+
+**注意：**配置为数组，中间件被调用时以 ‘先上到下’ 再 ‘由下到上’ 的顺序调用
+
+创建 mymiddleware 的包，然后创建 __ init __.py 和 mymiddleware.py
+
+![image-20211117141705102](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117141705102.png)
+
+```python
+from django.utils.deprecation import MiddlewareMixin
+class MyMW(MiddlewareMixin):
+    def process_request(self,request):
+        print('MyMW process_request do ---')
+    def process_view(self,request,callback,callback_args,callback_kwargs):
+        print('MyMW process_views do ---')
+    def process_response(self,request,response):
+        print('MyMW process_response do ---')
+        return response #必须返回一个 response
+```
+
+```python
+# views.py
+def test_mw(request):
+    print('-s-test_mw view in ---')
+    return HttpResponse('--test-mw---')
+# urls.py
+path('test_mw',views.test_mw)
+```
+
+![image-20211117143006307](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117143006307.png)
+
+
+
+```python
+from django.utils.deprecation import MiddlewareMixin
+class MyMW(MiddlewareMixin):
+    def process_request(self,request):
+        print('MyMW process_request do ---')
+    def process_view(self,request,callback,callback_args,callback_kwargs):
+        print('MyMW process_views do ---')
+    def process_response(self,request,response):
+        print('MyMW process_response do ---')
+        return response #必须返回一个 response
+    
+class MyMW2(MiddlewareMixin):
+    def process_request(self,request):
+        print('MyMW2 process_request do ---')
+    def process_view(self,request,callback,callback_args,callback_kwargs):
+        print('MyMW2 process_views do ---')
+    def process_response(self,request,response):
+        print('MyMW2 process_response do ---')
+        return response #必须返回一个 response
+```
+
+![image-20211117143235555](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117143235555.png)
+
+
+
+**练习：**
+
+用中间件实现强制某个 IP 地址只能向 /test 开头的地址发送 5 次请求。
+
+提示：request.META['REMOTE_ADDR'] 可以得到远程客户端的 IP 地址 request.path_info 可以得到客户端访问的请求路由信息。
+
+```python
+# mymiddleware.py
+class VisitLimit(MiddlewareMixin):
+    def process_request(self,request):
+        ip_address = request.META['REMOTE_ADDR']
+        path_url = request.path_info
+        if not re.match('^/test',path_url):
+            return
+        times = self.visit_times.get(ip_address,0)
+        print('ip',ip_address,'已经访问',times)
+        self.visit_times[ip_address] = times + 1
+        if times < 5:
+            return
+        return HttpResponse('您已经访问过' + str(times) + '次，访问被禁止')
+```
+
+
+
+![image-20211117144309424](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117144309424.png)
+
+![image-20211117144349522](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117144349522.png)
+
+![image-20211117144416573](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117144416573.png)
+
+
+
+### CSRF 攻击
+
+CSRF - 跨站伪造请求攻击
+
+某些恶意网站上包含链接、表单按钮或者Javascript，它们会利用登陆过的用户在浏览器中的认证信息试图在你的网站上完成某些操作，这就是跨站请求伪造（CSRF，即 Cross-Site Request Forgey）。
+
+![image-20211117144838448](C:\Users\FY\AppData\Roaming\Typora\typora-user-images\image-20211117144838448.png)
+
+
+
+### CSRF 防范
+
+django 采用 ‘比对暗号’ 机制防范攻击
+
+Cookies 中存储暗号1，模板中表单里藏着暗号2，用户只有在本网站下提交数据，暗号2才会随表单提交给服务器，django 对比两个暗号，对比成功，则认为是合法请求，否则是违法请求 - 403响应码
+
+配置步骤：
+
+1、setting.py 中确认 MIDDLEWARE 中 django.middleware.csrf.CsrfViewMiddleware 是否打开
+
+2、模板中，form 标签下添加如下标签 {% csrf_token %}
+
+特殊说明：
+
+如果某个视图不需要 django 进行 csrf 保护，可以用装饰器关闭对此视图的检查
+
+样例：
+
+```python
+from django.views.decorators.csrf import csrf_exempt
+
+@csrf_exempt
+def my_view(request):
+    return HttpResponse('Hello World')
+```
+
+
+
+## 分页
+
+
+
+### 分页定义
+
+分页是指 web 页面有大量数据需要显示，为了阅读方便在每个页面中只显示部分数据。
+
+优点：
+
+1、方便阅读
+
+2、减少数据提取量，减轻服务器压力
+
+--Django 提供了 Paginator 类可以方便的实现分页功能
+
+Paginator 类位于 'django.core.paginator' 模块中。
+
+
+
+### Paginator 对象
+
+负责分页数据整体的管理
+
+对象的构造方法
+
+```python
+paginator = Paginator(object_list,per_page)
+-参数
+     -object_list 需要分类数据的对象列表
+     -per_page 每页数据个数
+-返回值
+     -Paginator 的对象
+```
+
+
+
+### Paginator 属性
+
+--count：需要分页数据的对象总数
+
+--num_pages：分页后的页面总数
+
+--page_range：从1开始的 range 对象，用于记录当前面码数
+
+--per_page：每页数据的个数
+
+
+
+### Paginator 方法
+
+paginator对象.page(number)
+
+--参数 number 为页码信息（从1开始）
+
+--返回当前 number 页对应的页信息
+
+--如果提供的页码不存在，抛出 InvalidPage 异常
+
+
+
+### Paginator 异常 exception
+
+InvalidPage：总的异常基类，包含以下两个异常子类
+
+--PageNotAnlnteger：当向 page()传入一个不是整数的值时抛出
+
+--EmptyPage：当向 page() 提供一个有效值，但是那个页面上没有任何对象时抛出
+
+
+
+### Page 对象方法
+
+has_next()：如果有下一页返回 True
+
+has_previous()：如果有上一页返回 True
+
+has_other_pages()：如果有上一页或下一页返回 True
+
+next_page_number()：返回下一页的页码，如果下一页不存在，抛出 InvalidPage 异常
+
+previous_page_number()：返回上一页的页码，如果上一页不存在抛出 InvalidPage 异常
+
+**使用案例：**
+
+```python
+def test_page(request):
+    # test_page/4
+    # test_page?page=1
+    page_num = request.GET.get('page',1)
+    all_data = ['a','b','c','d','e']
+    # 初始化paginator
+    paginator = Paginator(all_data,2)
+    # 初始化 具体页码的page对象
+    c_page= paginator。page(int(page_num))
+    return render(request,'test_page.html',locals())
+```
+
+```html
+{% for p in c_page %}
+<p>{{p}}</p>
+{% endfor %}
+{% if c_page.has_previous %}
+<a href="/test_page?page={{c_page.previous_page_number}}">上一页</a>
+{% else %}
+上一页
+{% endif %}
+{% for p_num in paginator.page_range %}
+{% if p_num == c_page.number %}
+{{p_num}}
+{% else %}
+<a href="/test_page?page={{p_num}}">{{p_num}}</a>
+{% endif %}
+{% endfor %}
+{% if c_page.has_previous %}
+<a href="/test_page?page={{c_page.next_page_number}}">下一页</a>
+{% else %}
+下一页
+{% endif %}
+```
+
+
+
+## Django 生成 csv 文件
+
+
+
+### csv 文件定义
+
+逗号分隔符(Comma-Separated Values，CSV，有时也称为字符分隔值，因为分隔字符也可以不是逗号)，其文件以纯文本形式存储表格数据（数字和文本）
+
+说明：可被常见制表工具，如 Excel 等直接进行读取
+
+
+
+### Python 中生成 csv 文件
+
+Python 提供了内建库 - csv；可直接通过该库操作 csv 文件
+
+案例如下：
+
+```python
+import csv
+with open('eggs.csv','w',newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(['a','b','c'])
+```
+
+
+
+### csv 文件下载
+
+在网站中，实现下载 CSV，注意如下：
+
+--响应 Content-Type 类型需修改为 text/csv。这告诉浏览器该文档时 CSV 文件，而不是 HTML 文件。
+
+--响应会获得一个额外的 Content-Disposition 标头，其中包含 CSV 文件的名称。它将被浏览器用于开启 “另存为...” 对话框
+
+```python
+import csv
+from django.http import HttpResponse
+from .models import Book
+def make_csv_view(request):
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="mybook.csv"'
+    all_book = Book.objects.all()
+    writer = csv.writer(response)
+    writer.writerow(['id','title'])
+    for b in all_book:
+        writer.writerow([b.id,b.title])
+    return response
+```
+
+
+
+## 内建用户系统
+
+
+
+### 定义
+
+Django 带有一个用户认证系统。它处理用户账号、组、权限以及基于 cookies 的用户会话。
+
+用户可以直接使用 Django 自带的用户表
+
+官方文档：https://docs.djangoproject.com/en/2.2/topics/auth/
+
+### 基本字段
+
+模型类位置 from django.contrib.auth.models import User
+
+| 字段名       | 字段中文名                                                   |
+| ------------ | ------------------------------------------------------------ |
+| username     | 用户名                                                       |
+| password     | 密码                                                         |
+| email        | 邮箱                                                         |
+| first_name   | 名                                                           |
+| last_name    | 姓                                                           |
+| is_superuser | 是否是管理员账号（/admin）                                   |
+| is_staff     | 是否可以访问 admin 管理界面                                  |
+| is_active    | 是否是活跃用户，默认 True。一般不删除用户，而是将用户的 is_active 设为 False。 |
+| last_login   | 上一次的登陆时间                                             |
+| date_joined  | 用户创建的时间                                               |
+
+
+
+### 基本模型操作 - 创建用户
+
+1、创建普通用户 create_user
+
+```python
+from django.contrib.auth.models import User
+user = User.objects.create_user(username="用户名",password="密码",email="邮箱",...)
+```
+
+2、创建超级用户 create_superuser
+
+```python
+from django.contrib.auth.models import User
+user = User.objects.create_superuser(username="用户名",password="密码",email="邮箱",...)
+```
+
+
+
+### 基本模型操作 - 删除用户
+
+```python
+from django.contrib.auth.models import User
+try:
+    user = User.objects.get(username="用户名")
+    user.is_active = False # 记当前用户无效
+    user.save()
+    print("删除普通用户成功！")
+except:
+    print("删除普通用户失败！")
+```
+
+
+
+### 基本模型操作 - 校验密码
+
+```python
+from django.contrib.auth import authenticate
+user = authenticate(username=username,password=password)
+```
+
+说明：如果用户名密码校验成功则返回对应的 user 对象，否则返回 None
+
+
+
+### 基本模型操作 - 修改密码
+
+```python
+from django.contrib.auth.models import User
+try:
+    user = User.objects.get(username="xiaonao")
+    user.set_password('654321')
+    user.save()
+    return HttpResponse("修改密码成功！")
+except:
+    return HttpResponse("修改密码失败！")
+```
+
+
+
+### 基本模型操作 - 登陆状态保持
+
+```python
+from django.contrib.auth import login
+def login_view(request):
+    user = authenticate(username=username,password=password)
+    login(request,user)
+```
+
+
+
+### 基本模型操作 - 登陆状态校验
+
+```python
+from django.contrib.authdecorators import login_required
+@login_required
+def index_view(request):
+    #该视图必须为用户登录状态下才可访问
+    #当前登录用户可通过 request.user 获取
+    login_user = request.user
+    .....
+```
+
+
+
+### 基本模型操作 - 登陆状态取消
+
+```python
+from django.contrib.auth import logout
+def logout_view(request):
+    logout(request)
+```
+
+
+
+**使用案例：**
+
+```python
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate,login,logout
+from django.contrib.auth.decorators import login_required
+def register_view(request):
+    # 注册
+    if request.method == 'GET':
+        return render(request,'register.html')
+    elif request.methods == 'POST':
+        username = request.POST['username']
+        password_1 = request.POST['password_1']
+        password_2 = request.POST['password_2']
+        if password_1 != password_2:
+            return Httpresponse('----两次密码输入不一致----')
+        #TODO 查询用户名是否已注册
+        #务必使用 create_user 创建用户
+        user = User.objects.create_user(username=username,password=password_1)
+        #如果需要注册后，免登录
+        #login(request,user)
+        #return HttpResponseRedirect('/index')
+        return HttpResponseRedirect('/login')
+    
+def login_view(request):
+    #登录
+    if request.method == 'GET':
+        return render(request,'login.html')
+    elif request.methods == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(username=username,password=password)
+        if not user:
+            #用户名或密码错误
+            return HttpResponse('---用户名或密码错误---')
+        else:
+            #校验成功
+            #记录会话状态
+            login(request,user)
+            return HttpResponseRedirect('/index')
+ def logout_view(request):
+    #退出
+    logout(request)
+    return HttpResponse('---已退出---')
+
+@login_required
+def index_view(request):
+    #首页，必须登录才能访问，未登录跳转至 settings.LOGIN_URL
+    user = request.user
+    return HttpResponse('欢迎%s来到测试内部验证的首页'%(user.username))
+
+# settings.py设置
+LOGIN_URL = '/login'
+```
+
+
+
+### 内建用户表 - 继承内建抽象类
+
+步骤：
+
+1、添加新的应用
+
+2、定义模型类继承 AbstractUser
+
+3、settings.py 中指明 AUTH_USER_MODEL = '应用名.类名'
+
+注意：此操作要在第一次 Migrate 之前进行
+
+示例 - user/models.py - 添加 user 应用
+
+```python
+from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+#create your models here
+class UserInfo(AbstractUser):
+    phone = models.CharField(max_length=11,default="")
+```
+
+settings.py 添加配置
+
+AUTH_USER_MODEL = 'user.UserInfo'
+
+添加用户
+
+```python
+from user.models import UserInfo
+UserInfo.objects.create_user(username='guoxiao',password='123456',phone='1345462461')
 ```
 
