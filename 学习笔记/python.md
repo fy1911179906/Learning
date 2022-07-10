@@ -200,7 +200,7 @@ for x in range(row):
 
 ### 经典的字符串格式化符号——百分号(%)
 
-![](C:\Users\FY\Desktop\Python笔记\Python基础笔记\image\6bbfdd14f1c595ee4406429527530688902c9a19.jpg)
+![](C:\Users\FY\Desktop\笔记\学习笔记\python_image\6bbfdd14f1c595ee4406429527530688902c9a19.jpg)
 
 ```py
 >>> print('圆周率PI的值为：%f' % 3.14)

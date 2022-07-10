@@ -1120,7 +1120,7 @@ public class BookService {
     //不需要添加 set 方法
     //添加注入属性注解
     @Autowired//根据类型进行注入
-    @Qualifier(value = "userDAOImpl")//根据名称进行注入
+    @Qualifier(value = "bookDAOImpl")//根据名称进行注入
     private BookDAO bookDAO;
 
     public void add(){
