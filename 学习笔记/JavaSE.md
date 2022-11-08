@@ -593,17 +593,17 @@ public class Star{
 
 ![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制-数组.png)
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（数组）.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（数组）.png" style="zoom:200%;" />
 
 
 
 ### 成员方法的传参机制（对象）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（对象）.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（对象）.png" style="zoom:200%;" />
 
-![成员方法的传参机制（对象null）](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（对象null）.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（对象null）.png" alt="成员方法的传参机制（对象null）" style="zoom:200%;" />
 
-![成员方法的传参机制（方法内创建新的对象）](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（方法内创建新的对象）.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员方法的传参机制（方法内创建新的对象）.png" alt="成员方法的传参机制（方法内创建新的对象）" style="zoom:200%;" />
 
 
 
@@ -647,7 +647,7 @@ class MyTools{
 }
 ```
 
-![0](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\MethodExercise图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\MethodExercise图解.png" alt="0" style="zoom:200%;" />
 
 
 
@@ -655,7 +655,7 @@ class MyTools{
 
 ### 方法递归调用举例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法递归调用举例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法递归调用举例.png" style="zoom:200%;" />
 
 
 
@@ -670,7 +670,7 @@ public void test(int n){
 }
 ```
 
-![方法递归调用举例图解](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法递归调用举例图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法递归调用举例图解.png" alt="方法递归调用举例图解" style="zoom:200%;" />
 
 
 
@@ -686,19 +686,19 @@ public void test(int n){
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法递归调用举例图解（else）.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法递归调用举例图解（else）.png" style="zoom:200%;" />
 
 
 
 ### 递归重要规则
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归重要规则.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归重要规则.png" style="zoom:200%;" />
 
 
 
 ### 递归调用应用实例-迷宫问题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-迷宫问题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-迷宫问题.png" style="zoom:200%;" />
 
 **代码如下：**
 
@@ -787,7 +787,7 @@ class T{
 
 ### 递归调用应用实例-汉诺塔
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-汉诺塔.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-汉诺塔.png" style="zoom:200%;" />
 
 **代码如下：**
 
@@ -823,33 +823,33 @@ class Tower{
 
 ### 递归调用应用实例-八皇后问题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-八皇后问题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-八皇后问题.png" style="zoom:200%;" />
 
-![递归调用应用实例-八皇后问题分析](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-八皇后问题分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\递归调用应用实例-八皇后问题分析.png" alt="递归调用应用实例-八皇后问题分析" style="zoom:200%;" />
 
 
 
 ## 方法重载
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重载.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重载.png" style="zoom:200%;" />
 
-![方法重载练习](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重载练习.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重载练习.png" alt="方法重载练习" style="zoom:200%;" />
 
 
 
 ## 可变参数
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\可变参数.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\可变参数.png" style="zoom:200%;" />
 
 **可变参数实例**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\可变参数实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\可变参数实例.png" style="zoom:200%;" />
 
 
 
 ### 可变参数注意事项和使用细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\可变参数注意事项和使用细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\可变参数注意事项和使用细节.png" style="zoom:200%;" />
 
 ```java
 class T{
@@ -870,37 +870,37 @@ class T{
 
 ## 作用域
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\作用域.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\作用域.png" style="zoom:200%;" />
 
 
 
 ### 作用域注意事项和细节使用
 
-![作用域注意事项和细节使用](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\作用域注意事项和细节使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\作用域注意事项和细节使用.png" alt="作用域注意事项和细节使用" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\作用域注意事项和细节使用-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\作用域注意事项和细节使用-1.png" style="zoom:200%;" />
 
 
 
 ## 构造器
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器.png" style="zoom:200%;" />
 
-![构造器-1](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器-1.png" alt="构造器-1" style="zoom:200%;" />
 
 
 
 ### 构造器注意事项和使用细节
 
-![构造器注意事项和使用细节](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器注意事项和使用细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器注意事项和使用细节.png" alt="构造器注意事项和使用细节" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器注意事项和使用细节-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\构造器注意事项和使用细节-1.png" style="zoom:200%;" />
 
 
 
 ## javap的使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\javap的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\javap的使用.png" style="zoom:200%;" />
 
 
 
@@ -908,21 +908,21 @@ class T{
 
 ### JVM的内存对象存在形式
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JVM的内存对象存在形式.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JVM的内存对象存在形式.png" style="zoom:200%;" />
 
 
 
 ### 对象创建的流程分析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象创建的流程分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象创建的流程分析.png" style="zoom:200%;" />
 
-![对象创建的流程分析-1](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象创建的流程分析-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象创建的流程分析-1.png" alt="对象创建的流程分析-1" style="zoom:200%;" />
 
 
 
 ## this 关键字
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\this关键字.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\this关键字.png" style="zoom:200%;" />
 
 
 
@@ -973,11 +973,11 @@ class Dog{
 
 ### this的注意事项和使用细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\this的注意事项和使用细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\this的注意事项和使用细节.png" style="zoom:200%;" />
 
 **this关键字可以用来访问本类的属性**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\this关键字可以用来访问本类的属性.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\this关键字可以用来访问本类的属性.png" style="zoom:200%;" />
 
 
 
@@ -1159,7 +1159,7 @@ class Tom{//核心代码
 
 ## IDEA 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IDE.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IDE.png" style="zoom:200%;" />
 
 
 
@@ -1173,11 +1173,11 @@ class Tom{//核心代码
 
 4、添加注释和取消注释 Ctrl + / 【第一次是添加注释，第二次是取消注释】
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Settings-Keymap.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Settings-Keymap.png" style="zoom:200%;" />
 
 5、导入该行需要的类，先配置 auto import ，然后使用 Alt + Enter 即可
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Settings-AutoImport.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Settings-AutoImport.png" style="zoom:200%;" />
 
 6、快速格式化代码 Ctrl + Alt + L
 
@@ -1201,7 +1201,7 @@ file -> settings -> editor -> Live templates -> 查看有哪些模板快捷键/�
 
 ## 包
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包.png" style="zoom:200%;" />
 
 
 
@@ -1209,7 +1209,7 @@ file -> settings -> editor -> Live templates -> 查看有哪些模板快捷键/�
 
 包的本质实际上就是创建不同的文件夹来保存类文件
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包的本质.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包的本质.png" style="zoom:200%;" />
 
 ### 包的案例（eight.one）
 
@@ -1250,11 +1250,11 @@ public class Test{
 
 ### 包的命名
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包的命名.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包的命名.png" style="zoom:200%;" />
 
 **常用的包**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常用的包.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常用的包.png" style="zoom:200%;" />
 
 **建议：**引入包时，需要哪些包就导入那些包，不建议使用 * 导入。
 
@@ -1270,11 +1270,11 @@ public class Test{
 
 ## 访问修饰符
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\访问修饰符.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\访问修饰符.png" style="zoom:200%;" />
 
 ### 访问修饰符范围
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\访问修饰符范围.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\访问修饰符范围.png" style="zoom:200%;" />
 
 
 
@@ -1317,7 +1317,7 @@ public void getXxx(){//权限判断
 
 ### 封装案例（eight.two）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\封装案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\封装案例.png" style="zoom:200%;" />
 
 将构造器和 setXxx 结合
 
@@ -1402,9 +1402,9 @@ class Person{
 
 ### 继承介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承示意图.png" style="zoom:200%;" />
 
 **继承给编程带来的便利**
 
@@ -1584,7 +1584,7 @@ Cat extends Animal
 
 ### 继承的本质分析（重要）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承的本质分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承的本质分析.png" style="zoom:200%;" />
 
 这时要请大家注意，要按照查找关系返回信息
 
@@ -1694,7 +1694,7 @@ public class ExtendsExercise01 {
 
 ## super 关键字
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\super关键字.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\super关键字.png" style="zoom:200%;" />
 
 以 eight.three 包下的类为例
 
@@ -1732,21 +1732,21 @@ public class B extends Base{
 
 3、super 的访问不限于直接父类，如果爷爷类和本类中同名的成员，也可以使用 super 去访问 爷爷类的成员；如果多个基类中都有同名的成员，使用 super 访问遵循就近原则。 A -> B -> C
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\super与this的比较.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\super与this的比较.png" style="zoom:200%;" />
 
 
 
 ## 方法重写/覆盖（override）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重写、覆盖.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重写、覆盖.png" style="zoom:200%;" />
 
 ### 方法重写/覆盖注意事项和使用细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重写、覆盖注意事项和使用细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\方法重写、覆盖注意事项和使用细节.png" style="zoom:200%;" />
 
 **方法重写和重载的比较**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\重写和重载的比较.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\重写和重载的比较.png" style="zoom:200%;" />
 
 
 
@@ -1754,7 +1754,7 @@ public class B extends Base{
 
 请编写一个程序，Master 类中有一个 feed（喂食）方法，可以完成主人给动物喂食物的信息
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态.png" style="zoom:200%;" />
 
 **使用传统的方法来解决**
 
@@ -1952,7 +1952,7 @@ public class Test {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\向下转型.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\向下转型.png" style="zoom:200%;" />
 
 
 
@@ -1984,7 +1984,7 @@ class Sub extends Base{
 
 **多态练习**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态练习.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态练习.png" style="zoom:200%;" />
 
 
 
@@ -1999,17 +1999,17 @@ public class InstanceOfExercise {
     public static void main(String[] args) {
         //bb 编译类型 BB，运行类型 BB
         BB bb =new BB();
-        System.out.println(bb instanceof BB);
-        System.out.println(bb instanceof AA);
+        System.out.println(bb instanceof BB);//true，即判断instanceOf后面的数据类型的本身类型和其子类型是不是等于前面的运行类型
+        System.out.println(bb instanceof AA);//true
         //aa 编译类型 AA，运行类型 BB
         AA aa =new BB();
-        System.out.println(aa instanceof AA);
-        System.out.println(aa instanceof BB);
+        System.out.println(aa instanceof AA);//true
+        System.out.println(aa instanceof BB);//true
 
         Object obj = new Object();
-        System.out.println(obj instanceof AA);
+        System.out.println(obj instanceof AA);//true
         String str = "hello";
-        System.out.println(str instanceof Object);
+        System.out.println(str instanceof Object);//false
     }
 }
 class AA{}//父类
@@ -2028,7 +2028,7 @@ class BB extends AA{}//子类
 
 2、当调用对象属性时，没有动态绑定机制，哪里声明，哪里使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\java动态绑定机制.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\java动态绑定机制.png" style="zoom:200%;" />
 
 **示例(eight.ten)**
 
@@ -2079,7 +2079,7 @@ class B extends A{
 
 ### 多态的应用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态的应用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态的应用.png" style="zoom:200%;" />
 
 **多态数组**
 
@@ -2121,7 +2121,7 @@ public class Test {
 
 **多态参数**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态参数.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\多态参数.png" style="zoom:200%;" />
 
 **示例（eight.twelve)**
 
@@ -2342,7 +2342,7 @@ class A extends B {
 
 **equals 练习**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\equals练习.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\equals练习.png" style="zoom:200%;" />
 
 
 
@@ -2352,13 +2352,13 @@ class A extends B {
 
 **System.out.println(monster); 就会默认调用 monster.toString()**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\toString方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\toString方法.png" style="zoom: 200%;" />
 
 
 
 ### finalize 方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\finalize方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\finalize方法.png" style="zoom:200%;" />
 
 使用 System.gc(); ------- 主动调用垃圾回收器，就会调用finalize()方法
 
@@ -2368,7 +2368,7 @@ class A extends B {
 
 ### 断点调试的快捷键
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\断点.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\断点.png" style="zoom:200%;" />
 
 ### Idea debug进入 Jdk 源码
 
@@ -2376,17 +2376,17 @@ class A extends B {
 
 2、这个配置一下就好了：点击 Settings -> Build,Execution,Deployment -> Debugger -> Stepping 把 Do not step into the classes 中的 ajva.*，javax.* 取消勾选，其他的随意
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\断点流程.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\断点流程.png" style="zoom:200%;" />
 
 
 
 ## 项目 - 零钱通
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\项目零钱通.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\项目零钱通.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\项目零钱通说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\项目零钱通说明.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\项目零钱通改进.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\项目零钱通改进.png" style="zoom:200%;" />
 
 
 
@@ -2495,7 +2495,7 @@ public class SmallChangeSys{
 
 ### **零钱通OOP改进代码**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\零钱通总结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\零钱通总结.png" style="zoom:200%;" />
 
 **（eight.fourteen) -- SmallChangeSysOOP**
 
@@ -2792,7 +2792,7 @@ public class Utility {
 
 ### 类变量
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量.png" style="zoom:200%;" />
 
 **传统的写法（ten.one包）**
 
@@ -2881,31 +2881,31 @@ class Childs{//类
 
 ### **类变量内存布局（介绍）**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量内存布局.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量内存布局.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态变量示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态变量示意图.png" style="zoom:200%;" />
 
 
 
 ### 类变量定义
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量定义.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量定义.png" style="zoom:200%;" />
 
 ### 类变量使用注意事项和细节讨论
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量使用注意事项和细节讨论.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量使用注意事项和细节讨论.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量使用注意事项和细节讨论1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类变量使用注意事项和细节讨论1.png" style="zoom:200%;" />
 
 
 
 ### 类方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法介绍.png" style="zoom:200%;" />
 
 **类方法的使用场景**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法的使用场景.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法的使用场景.png" style="zoom:200%;" />
 
 **示例代码（ten.two包）**
 
@@ -2959,21 +2959,21 @@ class Stu{
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法使用注意事项和细节讨论.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法使用注意事项和细节讨论.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法使用注意事项和细节讨论1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类方法使用注意事项和细节讨论1.png" style="zoom:200%;" />
 
 
 
 ## main方法介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main方法介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main方法介绍.png" style="zoom:200%;" />
 
 ### main方法参数使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main方法参数使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main方法参数使用.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main方法介绍代码.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main方法介绍代码.png" style="zoom:200%;" />
 
 ```java
 public class Hello{
@@ -2991,7 +2991,7 @@ public class Hello{
 
 ### main注意事项和使用细节（ten.three）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main注意事项和使用细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\main注意事项和使用细节.png" style="zoom:200%;" />
 
 ```java
 package ten.three;
@@ -3025,9 +3025,9 @@ public class Main01 {
 
 ### idea 传递参数 main
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\idea传递参数main.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\idea传递参数main.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\idea传递参数main使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\idea传递参数main使用.png" style="zoom:200%;" />
 
 
 
@@ -3035,11 +3035,11 @@ public class Main01 {
 
 ### 代码块介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块介绍.png" style="zoom:200%;" />
 
 ### 代码块的好处
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块的好处.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块的好处.png" style="zoom:200%;" />
 
 **示例代码（ten.four）**
 
@@ -3092,7 +3092,7 @@ class Movie{
 
 ### 代码块使用注意事项和细节讨论
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论.png" style="zoom:200%;" />
 
 **示例代码（ten.four）**
 
@@ -3132,7 +3132,7 @@ class BB{
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论1.png" style="zoom:200%;" />
 
 **示例代码（ten.four）**
 
@@ -3171,7 +3171,7 @@ class DD{
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论2.png" style="zoom:200%;" />
 
 **示例代码（ten.four）**
 
@@ -3207,7 +3207,7 @@ class BBB extends AAA{
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\代码块使用注意事项和细节讨论3.png" style="zoom:200%;" />
 
 **示例代码（ten.four）**
 
@@ -3275,11 +3275,11 @@ class BBBB extends AAAA{
 
 ### 单例设计模式介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例设计模式介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例设计模式介绍.png" style="zoom:200%;" />
 
 ### 单例设计模式应用场景
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例设计模式应用场景.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例设计模式应用场景.png" style="zoom:200%;" />
 
 ### 饿汉式
 
@@ -3365,17 +3365,17 @@ class Cat{
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例模式懒汉式.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例模式懒汉式.png" style="zoom:200%;" />
 
 
 
 ### 单例模式两种形式的比较
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例模式两种形式的比较.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例模式两种形式的比较.png" style="zoom:200%;" />
 
 **单例模式小结**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例模式小结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\单例模式小结.png" style="zoom:200%;" />
 
 
 
@@ -3383,7 +3383,7 @@ class Cat{
 
 ### final关键字介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\final关键字介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\final关键字介绍.png" style="zoom:200%;" />
 
 **示例代码（ten.six）**
 
@@ -3430,7 +3430,7 @@ class F{
 
 ### final使用注意事项和细节讨论
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\final使用注意事项和细节讨论.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\final使用注意事项和细节讨论.png" style="zoom:200%;" />
 
 **示例代码（ten.six）**
 
@@ -3474,7 +3474,7 @@ class EE extends DD{}
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\final使用注意事项和细节讨论1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\final使用注意事项和细节讨论1.png" style="zoom:200%;" />
 
 **示例代码（ten.six）**
 
@@ -3506,9 +3506,9 @@ final class AAA{
 
 ### 抽象类介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类入门.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类入门.png" style="zoom:200%;" />
 
 **父类方法不确定性问题**
 
@@ -3520,7 +3520,7 @@ final class AAA{
 
 ===>当一个类中存在抽象方法时，需要将声明为 abstract 类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类的介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类的介绍.png" style="zoom:200%;" />
 
 
 
@@ -3528,7 +3528,7 @@ final class AAA{
 
 ### 抽象类使用注意事项和细节讨论
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类使用注意事项和细节讨论.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类使用注意事项和细节讨论.png" style="zoom:200%;" />
 
 **示例代码（ten.seven）**
 
@@ -3552,9 +3552,9 @@ abstract class A{
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类使用注意事项和细节讨论1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类使用注意事项和细节讨论1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类使用注意事项和细节讨论2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类使用注意事项和细节讨论2.png" style="zoom:200%;" />
 
 **示例代码（ten.seven）**
 
@@ -3588,15 +3588,15 @@ abstract class H {
 
 ## 抽象类最佳实践 - 模板设计模式
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类-模板设计模式.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类-模板设计模式.png" style="zoom:200%;" />
 
 
 
 **抽象类模板设计图解**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类模板设计图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类模板设计图解.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类模板设计.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\抽象类模板设计.png" style="zoom:200%;" />
 
 **示例代码（ten.seven.Test 测试类）：略**
 
@@ -3604,9 +3604,9 @@ abstract class H {
 
 ## 接口
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口入门.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口入门.png" style="zoom:200%;" />
 
 **示例代码（ten.eight)**
 
@@ -3695,7 +3695,7 @@ public class Intetrface01 {
 
 ### 接口介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口介绍.png" style="zoom:200%;" />
 
 AInterface 接口
 
@@ -3743,25 +3743,25 @@ class AAA implements AInterface{
 
 ### 接口深入讨论
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口深入讨论.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口深入讨论.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口深入讨论1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口深入讨论1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口应用举例说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口应用举例说明.png" style="zoom:200%;" />
 
 
 
 ### 接口注意实现和细节使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口注意实现和细节使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口注意实现和细节使用.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口注意实现和细节使用1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口注意实现和细节使用1.png" style="zoom:200%;" />
 
 
 
 ### 接口 vs 继承
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口vs继承.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口vs继承.png" style="zoom:200%;" />
 
 **示例代码（ten.nine)**
 
@@ -3816,7 +3816,7 @@ class LittleMonkey extends Monkey implements Fishable,Birdable{
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口vs继承小结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口vs继承小结.png" style="zoom:200%;" />
 
 接口在一定程度上实现代码解耦【即 接口规范化 + 动态绑定】
 
@@ -3824,7 +3824,7 @@ class LittleMonkey extends Monkey implements Fishable,Birdable{
 
 ### 接口的多态特性
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口的多态特性.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\接口的多态特性.png" style="zoom:200%;" />
 
 **（多态参数）示例代码（ten.ten)**
 
@@ -3928,23 +3928,23 @@ class Teacher implements IG{
 
 ### 内部类介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\内部类介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\内部类介绍.png" style="zoom:200%;" />
 
 ### 内部类分类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\内部类分类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\内部类分类.png" style="zoom:200%;" />
 
 ### 局部内部类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\局部内部类的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\局部内部类的使用.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\局部内部类的使用1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\局部内部类的使用1.png" style="zoom:200%;" />
 
 
 
 ### 匿名内部类（重要）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用.png" style="zoom:200%;" />
 
 **示例代码（ten.eleven)**
 
@@ -4046,7 +4046,7 @@ abstract class Animal{
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用1.png" style="zoom:200%;" />
 
 **示例代码（ten.eleven)**
 
@@ -4094,15 +4094,15 @@ class Person{
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用2.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的使用3.png" style="zoom:200%;" />
 
 
 
 ### 匿名内部类的最佳实践
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的最佳实践.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\匿名内部类的最佳实践.png" style="zoom:200%;" />
 
 **示例代码（ten.twelve)**
 
@@ -4145,11 +4145,11 @@ class Picture implements IL{
 
 ### 成员内部类的使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员内部类的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员内部类的使用.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员内部类的使用1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员内部类的使用1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员内部类的使用1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\成员内部类的使用1.png" style="zoom:200%;" />
 
 
 
@@ -4157,13 +4157,13 @@ class Picture implements IL{
 
 ### 静态内部类的使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用2.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\静态内部类的使用3.png" style="zoom:200%;" />
 
 
 
@@ -4224,7 +4224,7 @@ class Season{
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\基本默认注解创建.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\基本默认注解创建.png" style="zoom:200%;" />
 
 
 
@@ -4436,7 +4436,7 @@ public abstract class Enum<E extends Enum<e>> implements Comparable<E>,Serializa
 
 ### enum 常用方法应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum常用方法应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum常用方法应用实例.png" style="zoom:200%;" />
 
 我们一起来是举例说明 enum 常用方法的使用，对 Season3 测试。EnumMethod.java（eleven.one）
 
@@ -4490,13 +4490,13 @@ public class EnumMethod {
 
 ### enum 常用方法一览表
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum常用方法一览表.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum常用方法一览表.png" style="zoom:200%;" />
 
 ### enum 课堂练习
 
 EnumExercise02.java（eleven.one）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum课堂练习.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum课堂练习.png" style="zoom:200%;" />
 
 ```java
 package eleven.one;
@@ -4536,7 +4536,7 @@ enum Week{
 
 EnumDetail.java（eleven.one）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum实现接口.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\enum实现接口.png" style="zoom:200%;" />
 
 ```java
 package eleven.one;
@@ -4572,11 +4572,11 @@ enum Music implements IPlaying{
 
 ### 注解的理解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\注解的理解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\注解的理解.png" style="zoom:200%;" />
 
 ### 基本的 Annotation 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\基本的Annotation介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\基本的Annotation介绍.png" style="zoom:200%;" />
 
 ### @Override 注解
 
@@ -4724,47 +4724,47 @@ public class SuppressWarningsTest {
 
 ### 元注解的基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JDK的元注解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JDK的元注解.png" style="zoom:200%;" />
 
 
 
 ### @Retention 注解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Retention注解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Retention注解.png" style="zoom:200%;" />
 
 **@Retention 注解示意图**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Retention注解示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Retention注解示意图.png" style="zoom:200%;" />
 
 **@Retention 注解的案例**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Retention注解案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Retention注解案例.png" style="zoom:200%;" />
 
 
 
 ### @Target 注解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Target注解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Target注解.png" style="zoom:200%;" />
 
 **@Target 注解源码说明**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Target注解源码说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Target注解源码说明.png" style="zoom:200%;" />
 
 
 
 ### @Documented 注解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Documented注解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Documented注解.png" style="zoom:200%;" />
 
 **@Documented 注解源码**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Documented注解源码.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Documented注解源码.png" style="zoom:200%;" />
 
 
 
 ### @Inherited 注解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Inherited注解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\@Inherited注解.png" style="zoom:200%;" />
 
 
 
@@ -4827,21 +4827,21 @@ public class Exception01 {
 
 ## 异常介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常介绍.png" style="zoom:200%;" />
 
 
 
 ## 异常体系图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常体系图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常体系图.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常体系图-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常体系图-1.png" style="zoom:200%;" />
 
 
 
 ### 异常体系图小结
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常体系图小结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常体系图小结.png" style="zoom:200%;" />
 
 
 
@@ -4849,27 +4849,27 @@ public class Exception01 {
 
 ### 常见的运行时异常
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常.png" style="zoom:200%;" />
 
 ### 常见的运行时异常举例 （NullPointerException）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-1.png" style="zoom:200%;" />
 
 ### 常见的运行时异常举例（ArithmeticException）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-2.png" style="zoom:200%;" />
 
 ### 常见的运行时异常举例（ArrayIndexOutBoundsException）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-3.png" style="zoom:200%;" />
 
 ### 常见的运行时异常举例（ClassCastException）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-4.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-4.png" style="zoom:200%;" />
 
 ### 常见的运行时异常举例（NumberFormatException）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-5.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\常见的运行时异常举例-5.png" style="zoom:200%;" />
 
 
 
@@ -4877,11 +4877,11 @@ public class Exception01 {
 
 ### 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\编译异常介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\编译异常介绍.png" style="zoom:200%;" />
 
 ### 案例说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\编译异常案例说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\编译异常案例说明.png" style="zoom:200%;" />
 
 
 
@@ -4889,7 +4889,7 @@ public class Exception01 {
 
 ### 基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常处理基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常处理基本介绍.png" style="zoom:200%;" />
 
 ```java
 try{
@@ -4916,15 +4916,15 @@ try{
 
 2、如果程序员，没有显示处理异常，默认为 throws。
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常处理示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\异常处理示意图.png" style="zoom:200%;" />
 
 ### try-catch 异常处理
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch异常处理.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch异常处理.png" style="zoom:200%;" />
 
 ### try-catch 异常处理 - 快速入门
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch异常处理快速入门.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch异常处理快速入门.png" style="zoom:200%;" />
 
 ### try-catch 异常处理 - 注意事项
 
@@ -4934,7 +4934,7 @@ try{
 
 3、如果希望不管是否发生异常，都执行某段代码（比如关闭连接，释放资源等），则使用如下代码 - finally{}
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch异常处理注意事项.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch异常处理注意事项.png" style="zoom:200%;" />
 
 TryCatchDetail.java（twelve.one)
 
@@ -4962,7 +4962,7 @@ public class TryCatchDetail {
 
 4、可以有多个 catch 语句，捕获不同的异常（进行不同的业务处理），要求父类异常在后，子类异常在前。
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch方式处理异常注意事项.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch方式处理异常注意事项.png" style="zoom:200%;" />
 
 TryCatchDetail_java（twelve.one）
 
@@ -5008,11 +5008,11 @@ class Person{
 
 5、可以进行 try - catch 配合只用，这种使用相当于没有捕获异常，因此程序会直接崩溃。
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch方式处理异常注意事项-5.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch方式处理异常注意事项-5.png" style="zoom:200%;" />
 
 ### try-catch方式处理异常小结
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch方式处理异常小结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\try-catch方式处理异常小结.png" style="zoom:200%;" />
 
 
 
@@ -5020,15 +5020,15 @@ class Person{
 
 ### 基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理基本介绍.png" style="zoom:200%;" />
 
 ### throws 异常处理示意图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理示意图.png" style="zoom:200%;" />
 
 ### 快速入门
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理快速入门.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理快速入门.png" style="zoom:200%;" />
 
 Throws01.java（twelve.two）
 
@@ -5058,7 +5058,7 @@ public class Throws01 {
 
 ### 注意事项和使用细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理注意事项.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throws异常处理注意事项.png" style="zoom:200%;" />
 
 ThrowsDetail.java（twelve.two）
 
@@ -5130,15 +5130,15 @@ class Son extends Father{
 
 ### 基本概念
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义异常基本概念.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义异常基本概念.png" style="zoom:200%;" />
 
 ### 自定义异常的步骤
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义异常的步骤.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义异常的步骤.png" style="zoom:200%;" />
 
 ### 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义异常的应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义异常的应用实例.png" style="zoom:200%;" />
 
 CustomException.java（twelve.two）
 
@@ -5172,11 +5172,11 @@ class AgeException extends RuntimeException{
 
 ## throw 和 throws 的对比
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throw和throws的区别.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throw和throws的区别.png" style="zoom:200%;" />
 
 ### throw和throws的对比 - 测试题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throw和throws的对比.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\throw和throws的对比.png" style="zoom:200%;" />
 
 ThrowException.java（twelve.three）
 
@@ -5223,15 +5223,15 @@ class ReturnExceptionDemo{
 
 ### 包装类的分类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类的分类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类的分类.png" style="zoom:200%;" />
 
 ### 包装类的分类示意图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类的分类示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类的分类示意图.png" style="zoom:200%;" />
 
 ### 包装类的基本数据类型的转换
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类的基本数据类型的转换.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类的基本数据类型的转换.png" style="zoom:200%;" />
 
 Integer01.java（thirty.one）
 
@@ -5268,7 +5268,7 @@ public class Integer01 {
 
 ### 包装类课堂练习
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类课堂练习.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类课堂练习.png" style="zoom:200%;" />
 
 ```java
 Object obj1 = true ? new Integer(1) : new Double(2.0);
@@ -5280,7 +5280,7 @@ System.out.println(obj1);//1.0
 
 ### 包装类型和 String 类型的相互转换
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类型和String类型的相互转换.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\包装类型和String类型的相互转换.png" style="zoom:200%;" />
 
 WrapperVSString.java（thirty.one）
 
@@ -5308,11 +5308,11 @@ public class WrapperVSString {
 
 ### Integer 类和 Character 类的常用方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Integer类和Character类的常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Integer类和Character类的常用方法.png" style="zoom:200%;" />
 
 ### Integer 类练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Integer类面试题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Integer类面试题.png" style="zoom:200%;" />
 
 WrapperExercise02.java（thirty.one）
 
@@ -5348,7 +5348,7 @@ public class WrapperExercise02 {
 
 ### Integer 类练习题总结
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Integer类面试题总结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Integer类面试题总结.png" style="zoom:200%;" />
 
 
 
@@ -5356,11 +5356,11 @@ public class WrapperExercise02 {
 
 ### String 类的理解和创建对象
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的理解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的理解.png" style="zoom:200%;" />
 
 ### String 类架构示意图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类示意图.png" style="zoom:200%;" />
 
 String01.java（thirty.two）
 
@@ -5396,15 +5396,15 @@ public class String01 {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String值的改变.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String值的改变.png" style="zoom:200%;" />
 
 ### String 对象创建的两种方式
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String对象创建的方式.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String对象创建的方式.png" style="zoom:200%;" />
 
 ### String 对象两种创建方式的区别
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String对象两种创建方式的区别.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String对象两种创建方式的区别.png" style="zoom:200%;" />
 
 **String 在 JVM 的内存布局**
 
@@ -5412,11 +5412,11 @@ public class String01 {
 
 ### String 类的练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-2.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类练习题-3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类练习题-3.png" style="zoom:200%;" />
 
 StringExercise03.java（thirty.two）
 
@@ -5436,19 +5436,19 @@ public class StringExercise03 {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-4.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-4.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-5.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的练习题-5.png" style="zoom:200%;" />
 
 
 
 ### 字符串的特性
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-2.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-3.png" style="zoom:200%;" />
 
 StringExercise08.java（thirty.two）
 
@@ -5475,33 +5475,33 @@ public class StringExercise08 {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-4.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-4.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-5.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-5.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-6.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\字符串的特性-6.png" style="zoom:200%;" />
 
 
 
 ### String 类的常见方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法一览.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法一览.png" style="zoom:200%;" />
 
 
 
 ### String 类的常见方法应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法应用实例-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法应用实例-1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法应用实例-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法应用实例-2.png" style="zoom: 200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法应用实例-3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常见方法应用实例-3.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常用方法应用实例-4.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常用方法应用实例-4.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常用方法应用实例-5.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String类的常用方法应用实例-5.png" style="zoom:200%;" />
 
 
 
@@ -5516,7 +5516,7 @@ public class StringExercise08 {
 ​        4、StringBuffer 是一个 final 类，不能被继承
 ​        5、因为 StringBuffer 字符内容是存在 char[] value，所有在变化（增加/删除）不用每次都更换地址（即不是每次创建新对象），所以效率高于 String
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类基本介绍.png" style="zoom:200%;" />
 
 StringBuffer01.java（thirty.three）
 
@@ -5541,23 +5541,23 @@ public class StringBuffer01 {
 
 ### String 和 StringBuffer 的对比
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String和StringBuffer的对比.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String和StringBuffer的对比.png" style="zoom:200%;" />
 
 ### StringBuffer的构造器
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer的构造器.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer的构造器.png" style="zoom:200%;" />
 
 ### String 和StringBuffer 相互转换
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String和StringBuffer相互转换.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String和StringBuffer相互转换.png" style="zoom:200%;" />
 
 ### StringBuffer 类常见方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类常见方法-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类常见方法-1.png" style="zoom:200%;" />
 
 ### StringBuffer 类的练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类的练习题-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类的练习题-1.png" style="zoom:200%;" />
 
 ```java
 String str = null;
@@ -5569,7 +5569,7 @@ StringBuffer sb1 = new StringBUffer(str);//看源码可知，底层调用 super(
 Sytem.out.println(sb1);
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类的练习题-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuffer类的练习题-2.png" style="zoom:200%;" />
 
 StringBufferExercise02.java（thirty.three）
 
@@ -5618,9 +5618,9 @@ public class StringBufferExercise02 {
 ​        3、StringBuilder 是 final 类，不能被继承
 ​        4、StringBuilder 对象字符序列仍然是存放在其父类 AbstractStringBuilder 的 char[] value;
 ​           因此，字符序列是堆中
-​        5、StringBuilder 的方法，没有做互斥的处理，即没有 synchronized 关键字，因此在单线程的情使用，StringBuilder不是线程安全的
+​        5、StringBuilder 的方法，没有做互斥的处理，即没有 synchronized 关键字，因此在单线程的情况使用，StringBuilder不是线程安全的
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuilder类基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuilder类基本介绍.png" style="zoom:200%;" />
 
 StringBuilder01.java（thirty.four）
 
@@ -5647,19 +5647,19 @@ public class StringBuilder01 {
 
 ### StringBuilder 类常用方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuilder类常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\StringBuilder类常用方法.png" style="zoom:200%;" />
 
 
 
 ### String、StringBuffer 和 StringBuilder 的比较
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String、StringBuffer和StringBuilder的比较.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String、StringBuffer和StringBuilder的比较.png" style="zoom:200%;" />
 
 
 
 ### String、StringBuffer 和 StringBuilder 的效率测试
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String、StringBuffer和StringBuilder的效率测试.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String、StringBuffer和StringBuilder的效率测试.png" style="zoom:200%;" />
 
 StringVsStringBufferVsStringBuilder.java（thirty.four）
 
@@ -5705,7 +5705,7 @@ public class StringVsStringBufferVsStringBuilder {
 
 ### String、StringBuffer 和 StringBuilde r的选择
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String、StringBuffer和StringBuilder的选择.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\String、StringBuffer和StringBuilder的选择.png" style="zoom:200%;" />
 
 
 
@@ -5713,7 +5713,7 @@ public class StringVsStringBufferVsStringBuilder {
 
 ### Math 类基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Math类基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Math类基本介绍.png" style="zoom:200%;" />
 
 
 
@@ -5791,11 +5791,11 @@ public class MathMethd {
 
 ### Arrays 类常见方法应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类常见方法应用实例-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类常见方法应用实例-1.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类常见方法应用实例-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类常见方法应用实例-2.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类sort方法升降序控制.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类sort方法升降序控制.png" style="zoom:200%;" />
 
 ArrayMethos01.java（thirty.six）
 
@@ -5864,7 +5864,7 @@ public class ArrayMethos01 {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类常见方法应用实例-3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类常见方法应用实例-3.png" style="zoom:200%;" />
 
 ArraysSortCustom.java（thirty.six）
 
@@ -5892,7 +5892,7 @@ public class ArraysSortCustom {
 
 ### Arrays类练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类练习题-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Arrays类练习题-1.png" style="zoom:200%;" />
 
 ArrayExercise.java（thirty.six）
 
@@ -5970,7 +5970,7 @@ class Book{
 
 ### System 类常见方法和案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\System类常见方法和案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\System类常见方法和案例.png" style="zoom:200%;" />
 
 
 
@@ -5978,11 +5978,11 @@ class Book{
 
 ### BigInteger 和 BigDecimal 类介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BigInteger和BigDecimal类介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BigInteger和BigDecimal类介绍.png" style="zoom:200%;" />
 
 ### BigInteger 和 BigDecimal 类常见方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BigInteger和BigDecimal类常见方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BigInteger和BigDecimal类常见方法.png" style="zoom:200%;" />
 
 BigInteger_.java（thirty.seven）
 
@@ -6034,11 +6034,11 @@ public class BigInteger_ {
 
 ### 第一代日期类（Date）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第一代日期类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第一代日期类.png" style="zoom:200%;" />
 
 ### 第一代日期类应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第一代日期类应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第一代日期类应用实例.png" style="zoom:200%;" />
 
 Date01.java（thirty.eight）
 
@@ -6085,7 +6085,7 @@ public class Date01 {
 
 ### 第二代日期类（Calendar）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第二代日期类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第二代日期类.png" style="zoom:200%;" />
 
 Calendar01.java（thirty.eight）
 
@@ -6122,13 +6122,13 @@ public class Calendar01 {
 
 ### 第三代日期类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第三代日期类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第三代日期类.png" style="zoom:200%;" />
 
 ### 第三代日期类常见方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第三代日期类常见方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第三代日期类常见方法.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\DateTimeFormatter格式日期类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\DateTimeFormatter格式日期类.png" style="zoom:200%;" />
 
 LocalDate01.java（thirty.eight）
 
@@ -6176,7 +6176,7 @@ public class LocalDate01 {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Instant时间戳.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Instant时间戳.png" style="zoom:200%;" />
 
 Instant01.java（thirty.eight）
 
@@ -6198,7 +6198,7 @@ public class Instant01 {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第三代日期类更多方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\第三代日期类更多方法.png" style="zoom:200%;" />
 
 在LocalDate01.java（thirty.eight）里，代码如下：
 
@@ -6248,9 +6248,9 @@ public class Instant01 {
 
 ## 集合的理解和好处
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的理解和好处.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的理解和好处.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的理解和好处-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的理解和好处-1.png" style="zoom:200%;" />
 
 
 
@@ -6258,7 +6258,7 @@ public class Instant01 {
 
 ### 集合的框架体系两大类（Collection 和 Map）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的框架体系两大类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的框架体系两大类.png" style="zoom:200%;" />
 
 Collection01.java（fourteen.one）
 
@@ -6292,11 +6292,11 @@ public class Collection01 {
 
 ### 集合的框架体系图 Collention
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的框架体系图Collention.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的框架体系图Collention.png" style="zoom:200%;" />
 
 ### 集合的框架体系图 Map
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的框架体系图Map.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\集合的框架体系图Map.png" style="zoom:200%;" />
 
 
 
@@ -6304,7 +6304,7 @@ public class Collection01 {
 
 ### Collection 接口实现类的特点
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection接口和常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection接口和常用方法.png" style="zoom:200%;" />
 
 ### Collection 接口和常用方法
 
@@ -6318,7 +6318,7 @@ public class Collection01 {
 ​        containsAll 查找多个元素是否都存在
 ​        removeAll 删除多个元素
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection接口和常用方法-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection接口和常用方法-1.png" style="zoom:200%;" />
 
 CollectionMethod.java（fourteen.one）
 
@@ -6369,13 +6369,13 @@ public class CollectionMethod {
 
 ### Collection 接口遍历元素方式 - 使用 Iterator（迭代器）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection接口和常用方法-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection接口和常用方法-2.png" style="zoom:200%;" />
 
 
 
 ### Collection 接口遍历元素方式 - for循环增强
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection 接口遍历元素方式 - for循环增强.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collection 接口遍历元素方式 - for循环增强.png" style="zoom:200%;" />
 
 CollectionFor.java（fourteen.one）
 
@@ -6412,15 +6412,15 @@ public class CollectionFor {
 
 ### 迭代器的执行原理
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\迭代器的执行原理.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\迭代器的执行原理.png" style="zoom:200%;" />
 
 ### Iterator 接口的方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Iterator接口的方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Iterator接口的方法.png" style="zoom:200%;" />
 
 ###  Iterator 使用案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Iterator使用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Iterator使用案例.png" style="zoom:200%;" />
 
 CollectionIterator.java（fourteen.one）
 
@@ -6511,7 +6511,7 @@ class Book{
 
 ### List 接口基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List接口基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List接口基本介绍.png" style="zoom:200%;" />
 
 List01.java（fourteen.two）
 
@@ -6550,7 +6550,7 @@ public class List01 {
 ​        **Object set(int index, Object ele)**:设置指定index位置的元素为ele，相当于是替换。
 ​        **List subList(int fromIndex, int toIndex)**:返回从fromIndex到toIndex位置的子集合
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List接口的常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List接口的常用方法.png" style="zoom:200%;" />
 
 ListMethod.java（fourteen.two）
 
@@ -6598,13 +6598,13 @@ public class ListMethod {
 
 ### List 的三种遍历方式 [ArrayList，LinkedList，Vector]
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List的三种遍历方式[ArrayList-LinkedList-Vector].png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List的三种遍历方式[ArrayList-LinkedList-Vector].png" style="zoom:200%;" />
 
 
 
 ### List 练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List练习题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\List练习题.png" style="zoom:200%;" />
 
 ```java
 //静态方法
@@ -6631,17 +6631,17 @@ public static void sort(List list){
 
 ### ArrayList 的注意事项
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的注意事项.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的注意事项.png" style="zoom:200%;" />
 
 ### ArrayList 的底层操作机制源码分析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析重点.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析重点.png" style="zoom:200%;" />
 
 ### ArrayList 的底层操作机制源码分析案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析案例.png" style="zoom:200%;" />
 
 ### 分析使用无参构造器，创建和使用 ArrayList 的源码
 
@@ -6699,7 +6699,7 @@ public static void sort(List list){
 
 <img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ArrayList的底层操作机制源码分析-6.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\提示设置.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\提示设置.png" style="zoom:200%;" />
 
 
 
@@ -6707,11 +6707,11 @@ public static void sort(List list){
 
 ### Vector 的基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Vector的基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Vector的基本介绍.png" style="zoom:200%;" />
 
 ### Vector 和 ArrayList 的比较
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Vector和ArrayList的比较.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Vector和ArrayList的比较.png" style="zoom:200%;" />
 
 
 
@@ -6719,11 +6719,11 @@ public static void sort(List list){
 
 ### LinkedList 的全面说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedList的全面说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedList的全面说明.png" style="zoom:200%;" />
 
 ### LinkedList的底层操作机制
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedList的底层操作机制.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedList的底层操作机制.png" style="zoom:200%;" />
 
 **模拟一个简单的双向链表**
 
@@ -6801,7 +6801,7 @@ class Node{
 
 ### LinkedList 的底层操作机制源码分析案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedList的底层操作机制源码分析案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedList的底层操作机制源码分析案例.png" style="zoom:200%;" />
 
 LinkedListCRUD.java（fourteen.three）
 
@@ -6908,15 +6908,15 @@ public class LinkedListCRUD {
 ​    3、set 接口对象存放数据是无序（即添加的顺序和取出的顺序不一致）
 ​    4、注意：取出的顺序的顺序虽然不是添加的顺序，但是他是固定的。
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Set接口介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Set接口介绍.png" style="zoom:200%;" />
 
 ### Set 接口的常用方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Set接口的常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Set接口的常用方法.png" style="zoom:200%;" />
 
 ### Set 接口的常用方法举例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Set接口的常用方法举例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Set接口的常用方法举例.png" style="zoom:200%;" />
 
 SetMethod.java（fourteen.four）
 
@@ -6964,11 +6964,11 @@ public class SetMethod {
 
 ### HashSet 的全面说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet的全面说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet的全面说明.png" style="zoom:200%;" />
 
 ### HashSet 的案例说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet的案例说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet的案例说明.png" style="zoom:200%;" />
 
 HashSet01.java（fourteen.four）
 
@@ -7019,7 +7019,7 @@ class Dog{
 
 ### HashSet 底层机制说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet底层机制说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet底层机制说明.png" style="zoom:200%;" />
 
 HashSetStruture.java（fourteen.four）
 
@@ -7126,13 +7126,13 @@ public class HashSetStruture {
 
 ### HashSet 的扩容和转成红黑树机制
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet的扩容和转成红黑树机制.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet的扩容和转成红黑树机制.png" style="zoom:200%;" />
 
 
 
 ### HashSet 练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet练习题-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashSet练习题-1.png" style="zoom:200%;" />
 
 HashSetExercise.java（fourteen.four）
 
@@ -7206,11 +7206,11 @@ class Employee{
 
 ### LinkedHashSet 的全面说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedHashSet的全面说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedHashSet的全面说明.png" style="zoom:200%;" />
 
 ### LinkedHashSet 底层机制示意图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedHashSet底层机制示意图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedHashSet底层机制示意图.png" style="zoom:200%;" />
 
 LinkedHashSetSource.java（fourteen.five）
 
@@ -7250,7 +7250,7 @@ public class LinkedHashSetSource {
 
 ### LinkedHashSet 练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedHashSet练习题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\LinkedHashSet练习题.png" style="zoom:200%;" />
 
 LinkedHashSetExercise.java（fourteen.five）
 
@@ -7325,7 +7325,7 @@ class Car{
 
 ## Map 接口
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口实现类图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口实现类图.png" style="zoom:200%;" />
 
 ### Map接口实现类的特点
 
@@ -7335,7 +7335,7 @@ class Car{
 ​        4、Map 中的 value 可以重复
 ​        5、Map 的 key 可以为 null，value 也可以为 null，注意 key 为 null，只能有一个；value 为 null，可以有多个
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口实现类的特点.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口实现类的特点.png" style="zoom:200%;" />
 
 Map01.java（fourteen.six）
 
@@ -7376,7 +7376,7 @@ public class Map01 {
 
 ### Map 接口的特点
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口的特点.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口的特点.png" style="zoom:200%;" />
 
 MapSource.java（fourteen.six）
 
@@ -7420,19 +7420,19 @@ public class MapSource {
 
 ### Map 体系的继承图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map体系的继承图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map体系的继承图.png" style="zoom:200%;" />
 
 ### Map 接口的常用方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口的常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口的常用方法.png" style="zoom:200%;" />
 
 ### Map 接口遍历方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口遍历方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口遍历方法.png" style="zoom:200%;" />
 
 ### Map 接口遍历方法案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口遍历方法案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口遍历方法案例.png" style="zoom:200%;" />
 
 MapFor.java（fourteen.six）
 
@@ -7506,7 +7506,7 @@ public class MapFor {
 
 ### Map 接口练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口练习题-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Map接口练习题-1.png" style="zoom:200%;" />
 
 MapExercise.java（fourteen.six）
 
@@ -7595,7 +7595,7 @@ class Employee{
 
 ### Map 小结
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap小结.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap小结.png" style="zoom:200%;" />
 
 
 
@@ -7603,13 +7603,13 @@ class Employee{
 
 ### HashMap底层机制及源码剖析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap底层机制及源码剖析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap底层机制及源码剖析.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap底层机制及源码剖析扩容机制.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap底层机制及源码剖析扩容机制.png" style="zoom:200%;" />
 
 HashMapSource.java（fourteen.six）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap底层机制及源码剖析模拟扩容.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashMap底层机制及源码剖析模拟扩容.png" style="zoom:200%;" />
 
 ```java
 package fourteen.six;
@@ -7713,9 +7713,11 @@ public class HashMapSource {
 
 
 
+## HashTable
+
 ### HashTable 的基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashTable的基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\HashTable的基本介绍.png" style="zoom:200%;" />
 
 HashTableExercise.java（fourteen.seven）
 
@@ -7747,7 +7749,7 @@ public class HashTableExercise {
 
 ### Hashtable 和 HashMap 对比
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Hashtable和HashMap对比.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Hashtable和HashMap对比.png" style="zoom:200%;" />
 
 
 
@@ -7755,15 +7757,15 @@ public class HashTableExercise {
 
 ### Properties 基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties基本介绍.png" style="zoom:200%;" />
 
 ### Properties 案例使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties案例使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties案例使用.png" style="zoom:200%;" />
 
 ### Properties 基本使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties基本使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties基本使用.png" style="zoom:200%;" />
 
 Properties01.java（fourteen.seven)
 
@@ -7926,7 +7928,7 @@ public class TreeMap01 {
 
 ## 总结-开发中如何选择集合实现类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\总结-开发中如何选择集合实现类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\总结-开发中如何选择集合实现类.png" style="zoom:200%;" />
 
 
 
@@ -7934,11 +7936,11 @@ public class TreeMap01 {
 
 ### Collections 工具类介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collections工具类介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collections工具类介绍.png" style="zoom:200%;" />
 
 ### Collections 工具类应用案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collections工具类应用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collections工具类应用案例.png" style="zoom:200%;" />
 
 Collections01.java（fourteen.seven）
 
@@ -7989,7 +7991,7 @@ public class Collections01 {
 
 ### Collections 工具类（查找、替换）方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collections工具类方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Collections工具类方法.png" style="zoom:200%;" />
 
 Collections02.java（fourteen.seven）
 
@@ -8050,11 +8052,11 @@ public class Collections02 {
 
 ### 看一个需求
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的理解和好处.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的理解和好处.png" style="zoom:200%;" />
 
 ### 使用传统方法的问题分析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\使用传统方法的问题分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\使用传统方法的问题分析.png" style="zoom:200%;" />
 
 Generic01.java（fifteen.one）
 
@@ -8122,7 +8124,7 @@ class Dog{
 
 ### 使用泛型方法的好处
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的好处.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的好处.png" style="zoom:200%;" />
 
 Generic02.java（fifteen.one）
 
@@ -8160,7 +8162,7 @@ public class Generic02 {
 
 ### 泛型的基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的基本介绍.png" style="zoom:200%;" />
 
 Generic03.java（fifteen.one）
 
@@ -8206,11 +8208,11 @@ class Person<E>{
 
 ### 泛型的声明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的语法声明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的语法声明.png" style="zoom:200%;" />
 
 ### 泛型使用举例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型使用举例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型使用举例.png" style="zoom:200%;" />
 
 GenericExercise.java（fifteen.one）
 
@@ -8296,7 +8298,7 @@ class Student{
 
 ### 泛型使用的注意事项和细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型使用的注意事项和细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型使用的注意事项和细节.png" style="zoom:200%;" />
 
 GenericDetail.java（fifteen.one）
 
@@ -8347,7 +8349,7 @@ class Pig<E>{
 
 ### 泛型练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型练习题-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型练习题-2.png" style="zoom:200%;" />
 
 **（fifteen.two 包里）**
 
@@ -8527,9 +8529,9 @@ public class GenericExercise02 {
 
 ### 自定义泛型类基本语法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型类基本语法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型类基本语法.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型类的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型类的使用.png" style="zoom:200%;" />
 
 CustomGeneric.java（fifteen.three）
 
@@ -8618,9 +8620,9 @@ class Tiger<T, R, M>{
 
 ### 自定义泛型接口基本语法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型接口.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型接口.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型接口的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型接口的使用.png" style="zoom:200%;" />
 
 CustomInterfaceGeneric.java（fifteen.three）
 
@@ -8686,7 +8688,7 @@ class CC implements IUsb{//等价于class CC implements IUsb<Object, Object>
 
 ### 自定义泛型方法基本语法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型方法基本语法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\自定义泛型方法基本语法.png" style="zoom:200%;" />
 
 CustomMethodGeneric.java（fifteen.three）
 
@@ -8742,7 +8744,7 @@ class Fish<T, R>{//泛型类
 
 ### 泛型的继承和通配符说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的继承和通配符说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\泛型的继承和通配符说明.png" style="zoom:200%;" />
 
 GenericExtends.java（fifteen.three）
 
@@ -9031,21 +9033,21 @@ class MyPanel extends JPanel implements KeyListener{
 
 ### 线程相关概念 - 程序
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念.png" style="zoom:200%;" />
 
 ### 线程相关概念 - 进程
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念进程.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念进程.png" style="zoom:200%;" />
 
 ### 线程相关概念 - 线程
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念线程.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念线程.png" style="zoom:200%;" />
 
 ### 线程相关概念 - 其他相关概念
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念其他相关概念.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念其他相关概念.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念其他相关概念-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程相关概念其他相关概念-2.png" style="zoom:200%;" />
 
 CpuNum.java（seventeen.one）
 
@@ -9070,11 +9072,11 @@ public class CpuNum {
 
 ### 创建线程的两种方式
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\创建线程的两种方式.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\创建线程的两种方式.png" style="zoom:200%;" />
 
 ### 线程使用案例一（继承 Thread 类）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程使用案例-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程使用案例-1.png" style="zoom:200%;" />
 
 Thread01.java（seventeen.one）
 
@@ -9141,15 +9143,15 @@ class Cat extends Thread{
 
 ### 线程使用案例一（图解）
 
-<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程基本使用案例图解.png" style="zoom:150%;" />
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程基本使用案例图解.png" style="zoom: 200%;" />
 
 
 
 ### 线程使用案例二（实现 Runnable 接口）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程基本使用案例-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程基本使用案例-2.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程使用案例实现Runnable接口.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程使用案例实现Runnable接口.png" style="zoom:200%;" />
 
 Thread02.java（seventeen.one）
 
@@ -9221,7 +9223,7 @@ class ThreadProxy implements Runnable{//你可以把 Proxy类当做 ThreadProxy
 
 ### 线程使用案例三（多线程执行）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程使用案例-多线程执行.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程使用案例-多线程执行.png" style="zoom:200%;" />
 
 Thread03.java（seventeen.one）
 
@@ -9282,13 +9284,13 @@ class T2 implements Runnable{
 
 ### 线程如何理解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程如何理解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程如何理解.png" style="zoom:200%;" />
 
 ### 继承 Thread 和实现 Runnable 的区别
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承Thread和实现Runnable的区别.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承Thread和实现Runnable的区别.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承Thread和实现Runnable的区别-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\继承Thread和实现Runnable的区别-1.png" style="zoom:200%;" />
 
 SellTicket.java（seventeen.one）
 
@@ -9360,11 +9362,11 @@ class SellTicket02 implements Runnable{
 
 ### 线程终止基本说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程终止基本说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程终止基本说明.png" style="zoom:200%;" />
 
 ### 线程终止应用案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程终止应用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程终止应用案例.png" style="zoom:200%;" />
 
 ThreadExit.java（seventeen.one）
 
@@ -9416,15 +9418,15 @@ class T extends Thread{
 
 ### 线程常用方法（第一组）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法.png" style="zoom:200%;" />
 
 ### 线程常用方法注意事项和细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法注意事项和细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法注意事项和细节.png" style="zoom:200%;" />
 
 ### 线程常用方法（第一组）应用案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法应用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法应用案例.png" style="zoom:200%;" />
 
 ThreadMethod01.java（seventeen.two）
 
@@ -9474,11 +9476,11 @@ class T3 extends Thread{//自定义的线程类
 
 ### 线程常用方法（第二组）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法-2.png" style="zoom:200%;" />
 
 ### 线程常用方法（第二组）应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法第二组应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法第二组应用实例.png" style="zoom:200%;" />
 
 ThreadMethod02.java（seventeen.two）
 
@@ -9520,7 +9522,7 @@ class T4 extends Thread{
 
 ### 线程常用方法练习题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法练习题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法练习题.png" style="zoom:200%;" />
 
 ThreadMethodExercise.java（seventeen.two）
 
@@ -9566,11 +9568,11 @@ class T5 implements Runnable{
 
 **用户线程和守护线程**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\用户线程和守护线程.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\用户线程和守护线程.png" style="zoom:200%;" />
 
 ### 线程常用方法（第三组）应用案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法第三组应用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程常用方法第三组应用案例.png" style="zoom:200%;" />
 
 ThreadMethod03.java（seventeen.two）
 
@@ -9611,13 +9613,13 @@ class MyDaemonThread extends Thread{
 
 ## 线程的生命周期
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程的生命周期.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程的生命周期.png" style="zoom:200%;" />
 
 ![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程的生命周期官方.png)
 
 ### 线程的生命周期状态转换图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程的生命周期状态转换图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程的生命周期状态转换图.png" style="zoom:200%;" />
 
 ThreadState.java（seventeen.two)
 
@@ -9659,15 +9661,15 @@ class T6 extends Thread{
 
 ### 线程同步问题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程同步问题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程同步问题.png" style="zoom:200%;" />
 
 ### 线程同步机制
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程同步机制.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\线程同步机制.png" style="zoom:200%;" />
 
 ### 同步具体方法 - Synchronized
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\同步具体方法-Synchronized.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\同步具体方法-Synchronized.png" style="zoom:200%;" />
 
 SynSellTicket.java（seventeen.three）
 
@@ -9715,7 +9717,7 @@ class SellTicket03 implements Runnable{
 
 ### 分析同步原理
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\分析同步原理.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\分析同步原理.png" style="zoom:200%;" />
 
 
 
@@ -9723,15 +9725,15 @@ class SellTicket03 implements Runnable{
 
 ### 互斥锁基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\互斥锁基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\互斥锁基本介绍.png" style="zoom:200%;" />
 
 ### 使用互斥锁来解决售票问题
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\使用互斥锁来解决售票问题.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\使用互斥锁来解决售票问题.png" style="zoom:200%;" />
 
 ### 互斥锁注意事项和细节
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\互斥锁注意事项和细节.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\互斥锁注意事项和细节.png" style="zoom:200%;" />
 
 MutualLock.java（seventeen.three）
 
@@ -9816,11 +9818,11 @@ class SellTicket05 extends Thread{
 
 ### 死锁基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\死锁基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\死锁基本介绍.png" style="zoom:200%;" />
 
 ### 死锁的应用案例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\死锁的应用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\死锁的应用案例.png" style="zoom:200%;" />
 
 DeadLock.java（seventeen.three）
 
@@ -9881,11 +9883,11 @@ class DeadLockDemo extends Thread{
 
 ### 什么时候会释放锁
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\释放锁操作.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\释放锁操作.png" style="zoom:200%;" />
 
 ### 什么时候不会释放锁
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\释放锁分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\释放锁分析.png" style="zoom:200%;" />
 
 
 
@@ -9973,7 +9975,7 @@ class DeadLockDemo extends Thread{
 
 ### 什么是文件
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\什么是文件.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\什么是文件.png" style="zoom:200%;" />
 
 
 
@@ -9983,7 +9985,7 @@ class DeadLockDemo extends Thread{
 
 **输出流：**数据从程序（内存）到数据源（文件）的路径
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\文件流.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\文件流.png" style="zoom:200%;" />
 
 
 
@@ -9991,11 +9993,11 @@ class DeadLockDemo extends Thread{
 
 ### 创建文件对象相关构造器和方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\创建文件对象相关构造器和方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\创建文件对象相关构造器和方法.png" style="zoom:200%;" />
 
 ### 案例演示
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\创建文件对象相关构造器和方法案例演示.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\创建文件对象相关构造器和方法案例演示.png" style="zoom:200%;" />
 
 FileCreate.java（nineteen.one）
 
@@ -10059,11 +10061,11 @@ public class FileCreate {
 
 ### 获取文件的相关信息
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取文件的相关信息.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取文件的相关信息.png" style="zoom:200%;" />
 
 ### 案例演示
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取文件的相关信息案例演示.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取文件的相关信息案例演示.png" style="zoom:200%;" />
 
 FileInformation.java（nineteen.one）
 
@@ -10100,7 +10102,7 @@ public class FileInformation {
 
 ### 目录的操作和文件删除
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\目录的操作和文件删除.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\目录的操作和文件删除.png" style="zoom:200%;" />
 
 ```java
 //判断d:\\fileTest\\new03.txt 是否存在，存在就删除，否则提示不存在
@@ -10142,25 +10144,25 @@ public void mkdirsFile(){
 
 ### Java IO流原理
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JavaIO流原理.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JavaIO流原理.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JavaIO流原理续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\JavaIO流原理续.png" style="zoom:200%;" />
 
 
 
 ### 流的分类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\流的分类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\流的分类.png" style="zoom:200%;" />
 
 
 
 ### IO流体系图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IO流体系图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IO流体系图.png" style="zoom:200%;" />
 
 **InputStream : 字节输入流**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\InputStream字节输入流.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\InputStream字节输入流.png" style="zoom:200%;" />
 
 **OutputStream : 字节输出流**
 
@@ -10174,13 +10176,13 @@ public void mkdirsFile(){
 
 ### FileInputStream 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileInputStream介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileInputStream介绍.png" style="zoom:200%;" />
 
 
 
 ### FileInputStream 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileInputStream应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileInputStream应用实例.png" style="zoom:200%;" />
 
 FileInputStream_.java（nineteen.two）
 
@@ -10265,13 +10267,13 @@ public class FileInputStream_ {
 
 ### FileOutputStream 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileOutputStream介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileOutputStream介绍.png" style="zoom:200%;" />
 
 
 
 ### FileOutputStream 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileOutputStream应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileOutputStream应用实例.png" style="zoom:200%;" />
 
 FileOutputStream_.java（nineteen.two）
 
@@ -10332,7 +10334,7 @@ public class FileOutputStream_ {
 
 ### FileOutputStream 拷贝应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileOutputStream拷贝应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileOutputStream拷贝应用实例.png" style="zoom:200%;" />
 
 FileCopy.java（nineteen.two）
 
@@ -10393,15 +10395,15 @@ public class FileCopy {
 
 ### FileReader 和 FileWriter 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileReader和FileWriter介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileReader和FileWriter介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileReader和FileWriter介绍续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileReader和FileWriter介绍续.png" style="zoom:200%;" />
 
 
 
 ### FileReader 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileReader和FileWriter应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileReader和FileWriter应用实例.png" style="zoom:200%;" />
 
 FileReader_.java（nineteen.three）
 
@@ -10476,7 +10478,7 @@ public class FileReader_ {
 
 ### FileWriter 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileWriter应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\FileWriter应用实例.png" style="zoom:200%;" />
 
 FileWriter_java（nineteen.three）
 
@@ -10531,23 +10533,23 @@ public class FileWriter_ {
 
 ### 节点流和处理流介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流介绍.png" style="zoom:200%;" />
 
 
 
 ### 节点流和处理流一览表
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流一览表.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流一览表.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流一览表介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流一览表介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流一览表介绍续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流一览表介绍续.png" style="zoom:200%;" />
 
 
 
 ### 节点流和处理流的区别和联系
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流的区别和联系.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\节点流和处理流的区别和联系.png" style="zoom:200%;" />
 
 ### 模拟节点流和处理流关系（nineteen.three.one）
 
@@ -10557,11 +10559,11 @@ public class FileWriter_ {
 
 ### 处理流 BufferedReader 和 BufferedWriter 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\处理流BufferedReader和BufferedWriter.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\处理流BufferedReader和BufferedWriter.png" style="zoom:200%;" />
 
 ### BufferedReader应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\处理流BufferedReader应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\处理流BufferedReader应用实例.png" style="zoom:200%;" />
 
 BufferedReader_.java（nineteen.four）
 
@@ -10611,7 +10613,7 @@ public class BufferedReader_ {
 
 ### BufferedWriter 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedWriter应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedWriter应用实例.png" style="zoom:200%;" />
 
 BufferedWriter_.java（nineteen.four）
 
@@ -10645,7 +10647,7 @@ public class BufferedWriter_ {
 
 ### BufferedReader 和 BufferedWriter 综合应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedReader和BufferedWriter综合应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedReader和BufferedWriter综合应用实例.png" style="zoom:200%;" />
 
 BufferedCopy.java（nineteen.four）
 
@@ -10701,15 +10703,15 @@ public class BufferedCopy {
 
 ### 处理流 BufferedInputStream 和 BufferedOutputStream 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\处理流BufferedInputStream和BufferedOutputStream介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\处理流BufferedInputStream和BufferedOutputStream介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedOutputStream介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedOutputStream介绍.png" style="zoom:200%;" />
 
 
 
 ### BufferedInputStream 和 BufferedOutputStream 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedInputStream和BufferedOutputStream应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\BufferedInputStream和BufferedOutputStream应用实例.png" style="zoom:200%;" />
 
 BufferedStreamCopy.java（nineteen.five）
 
@@ -10762,21 +10764,21 @@ public class BufferedStreamCopy {
 
 ### 对象流 ObjectInputStream 和 ObjectOutputStream 应用的需求分析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象流ObjectInputStream和ObjectOutputStream介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象流ObjectInputStream和ObjectOutputStream介绍.png" style="zoom:200%;" />
 
 ### 序列化和反序列化介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\序列化和反序列化介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\序列化和反序列化介绍.png" style="zoom:200%;" />
 
 ### 对象流 ObjectInputStream 和 ObjectOutputStream 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象流ObjectInputStream和ObjectOutputStream介绍续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象流ObjectInputStream和ObjectOutputStream介绍续.png" style="zoom:200%;" />
 
 
 
 ### ObjectOutStream 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ObjectOutStream应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ObjectOutStream应用实例.png" style="zoom:200%;" />
 
 ObjectOutputStream_.java（nineteen.six）
 
@@ -10827,7 +10829,7 @@ class Dog implements Serializable {
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ObjectInputStream应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ObjectInputStream应用实例.png" style="zoom:200%;" />
 
 ObjectInputStream_.java（nineteen.six）
 
@@ -10868,7 +10870,7 @@ public class ObjectInputStream_ {
 
 Dog.java（nineteen.six）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象流注意事项和细节说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\对象流注意事项和细节说明.png" style="zoom:200%;" />
 
 
 
@@ -10876,7 +10878,7 @@ Dog.java（nineteen.six）
 
 ### 标准输入输出流介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\标准输入输出流介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\标准输入输出流介绍.png" style="zoom:200%;" />
 
 InputAndOutput.java（nineteen.six）
 
@@ -10913,7 +10915,7 @@ public class InputAndOutput {
 
 InputAndOutput.java（nineteen.six）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\标准输入输出流应用案例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\标准输入输出流应用案例.png" style="zoom:200%;" />
 
 
 
@@ -10921,7 +10923,7 @@ InputAndOutput.java（nineteen.six）
 
 ## 转换流 - InputStreamReader 和 OutputStreamWriter
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流InputStreamReader和OutputStreamWriter引用分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流InputStreamReader和OutputStreamWriter引用分析.png" style="zoom:200%;" />
 
 CodeQuestion.java（nineteen.seven）
 
@@ -10947,21 +10949,21 @@ public class CodeQuestion {
 }
 ```
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流的引用乱码的解决.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流的引用乱码的解决.png" style="zoom:200%;" />
 
 
 
 ### 转换流 InputStreamReader 和 OutputStreamWriter 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流InputStreamReader和OutputStreamWriter介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流InputStreamReader和OutputStreamWriter介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流的构造函数.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流的构造函数.png" style="zoom:200%;" />
 
 
 
 ### 转换流 InputStreamReader 的应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流的应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流的应用实例.png" style="zoom:200%;" />
 
 InputStreamReader_.java（nineteen.seven）
 
@@ -10999,7 +11001,7 @@ public class InputStreamReader_ {
 
 ### 转换流 OutputStreamWriter  应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流应用实例续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\转换流应用实例续.png" style="zoom:200%;" />
 
 OutputStreamWriter_.java（nineteen.seven）
 
@@ -11033,7 +11035,7 @@ public class OutputStreamWriter_ {
 
 ### 打印流 PrintStream 和 PrintWriter 应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\打印流PrintStream和PrintWriter应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\打印流PrintStream和PrintWriter应用实例.png" style="zoom:200%;" />
 
 PrintStream_.java（nineteen.seven）
 
@@ -11101,7 +11103,7 @@ public class PrintWriter_ {
 
 ### Properties 引用的需求分析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties引用的需求分析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties引用的需求分析.png" style="zoom:200%;" />
 
 Properties01.java（nineteen.eight）
 
@@ -11132,13 +11134,13 @@ public class Properties01 {
 
 ### Properties的基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties的基本介绍和常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties的基本介绍和常用方法.png" style="zoom:200%;" />
 
 
 
 ### Properties的应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties的应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Properties的应用实例.png" style="zoom:200%;" />
 
 Properties02.java（nineteen.eight）
 
@@ -11260,47 +11262,47 @@ public class Properties03 {
 
 ### 网络通信
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信.png" style="zoom:200%;" />
 
 ### 网络概念
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络概念.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络概念.png" style="zoom:200%;" />
 
 ### IP 地址介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IP地址介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IP地址介绍.png" style="zoom:200%;" />
 
 ### ipv4 地址分类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ipv4地址分类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\ipv4地址分类.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IP为唯一标识.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\IP为唯一标识.png" style="zoom:200%;" />
 
 ### 域名介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\域名介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\域名介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\域名和端口.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\域名和端口.png" style="zoom:200%;" />
 
 ### 网络通信协议
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信协议介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信协议介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络协议的图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络协议的图解.png" style="zoom:200%;" />
 
 #### 网络协议的理解
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络协议的理解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络协议的理解.png" style="zoom:200%;" />
 
 #### 网络同通信协议模型对应层
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络同通信协议模型对应层.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络同通信协议模型对应层.png" style="zoom:200%;" />
 
 #### TCP 和 UDP 介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\TCP和UDP介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\TCP和UDP介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\TCP和UDP区别图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\TCP和UDP区别图解.png" style="zoom:200%;" />
 
 
 
@@ -11308,11 +11310,11 @@ public class Properties03 {
 
 ### InetAddress 类相关方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\InetAddress类相关方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\InetAddress类相关方法.png" style="zoom:200%;" />
 
 ### InetAddress 类应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\InetAddress类相关方法应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\InetAddress类相关方法应用实例.png" style="zoom:200%;" />
 
 API_.java（twentyOne.one）
 
@@ -11348,21 +11350,21 @@ public class API_ {
 
 ### Socket基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Socket基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Socket基本介绍.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Socket基本介绍图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Socket基本介绍图解.png" style="zoom:200%;" />
 
 
 
 ### Socket - TCP 网络通信编程基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程基本介绍.png" style="zoom:200%;" />
 
 ### Socket - TCP网络通信编程应用实例 - 1
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\socket入门使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\socket入门使用.png" style="zoom:200%;" />
 
 SocketTCP01Server.java（twentyOne.two）
 
@@ -11442,9 +11444,9 @@ public class SocketTCP01Client {
 
 **(在 twentyOne.two 包)**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续图解.png" style="zoom:200%;" />
 
 
 
@@ -11452,9 +11454,9 @@ public class SocketTCP01Client {
 
 **(在 twentyOne.two 包)**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续图解.png" style="zoom:200%;" />
 
 
 
@@ -11462,19 +11464,19 @@ public class SocketTCP01Client {
 
 **(在 twentyOne.two 包)**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续续.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续续图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\SocketTCP网络通信编程应用实例续续续图解.png" style="zoom:200%;" />
 
 
 
 ### netstat 指令
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\netstat指令的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\netstat指令的使用.png" style="zoom:200%;" />
 
 ### TCP 网络通讯不为人知的密码
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\TCP网络通讯不为人知的密码.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\TCP网络通讯不为人知的密码.png" style="zoom:200%;" />
 
 
 
@@ -11482,21 +11484,21 @@ public class SocketTCP01Client {
 
 ### UDP 网络通信编程基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程基本介绍.png" style="zoom:200%;" />
 
 ### UDP 网络通信编程基本流程
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程基本流程.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程基本流程.png" style="zoom:200%;" />
 
 ### UDP 网络通信编程原理图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程原理图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程原理图.png" style="zoom:200%;" />
 
 ### UDP 网络通信编程应用实例
 
 **(在 twentyOne.three 包)**
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\UDP网络通信编程应用实例.png" style="zoom:200%;" />
 
 
 
@@ -11506,17 +11508,17 @@ public class SocketTCP01Client {
 
 ### 网路通信编程题 - 1
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信作业-1.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信作业-1.png" style="zoom:200%;" />
 
 ### 网路通信编程题 - 2
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网路通信编程题-2.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网路通信编程题-2.png" style="zoom:200%;" />
 
 ### 网路通信编程题 - 3
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网路通信编程题-3.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网路通信编程题-3.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信作业-3图解.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\网络通信作业-3图解.png" style="zoom: 200%;" />
 
 
 
@@ -11624,7 +11626,7 @@ public class SocketTCP01Client {
 
 ### 一个需求引出反射
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\一个需求引出反射.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\一个需求引出反射.png" style="zoom:200%;" />
 
 （主方法）ReflectionQuestion.java（twentyThree.one）及相关代码在包里
 
@@ -11682,25 +11684,25 @@ public class ReflectionQuestion {
 
 ### Java Reflection
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制JavaReflection.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制JavaReflection.png" style="zoom:200%;" />
 
 
 
 ### 反射机制 Java 程序在计算机有三阶段
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制Java程序在计算机有三阶段.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制Java程序在计算机有三阶段.png" style="zoom:200%;" />
 
 
 
 ### 反射机制 Java 的使用
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制Java的使用.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制Java的使用.png" style="zoom:200%;" />
 
 
 
 ### 反射机制相关的主要类
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制相关的主要类.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制相关的主要类.png" style="zoom:200%;" />
 
 Reflection01.java（twentyThree.one）
 
@@ -11758,7 +11760,7 @@ public class Reflection01 {
 
 ### 反射优点和缺点
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射优点和缺点.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射优点和缺点.png" style="zoom:200%;" />
 
 Reflection02.java （twentyThree.one）
 
@@ -11817,7 +11819,7 @@ public class Reflection02 {
 
 Reflection02.java （twentyThree.one）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射调用优化-关闭访问检查.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射调用优化-关闭访问检查.png" style="zoom:200%;" />
 
 
 
@@ -11825,13 +11827,13 @@ Reflection02.java （twentyThree.one）
 
 ### Class 类基本介绍
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类基本介绍.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类基本介绍.png" style="zoom:200%;" />
 
 ### Class 类关系图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类关系图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类关系图.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class对象在内存只加载一次.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class对象在内存只加载一次.png" style="zoom:200%;" />
 
 Class01.java（twentyThree.two）
 
@@ -11873,19 +11875,19 @@ public class Class01 {
 
 
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制Java程序在计算机有三阶段续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\反射机制Java程序在计算机有三阶段续.png" style="zoom:200%;" />
 
 
 
 ### Class 类的常用方法
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类的常用方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类的常用方法.png" style="zoom:200%;" />
 
 
 
 ### Class 类的应用实例
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类的常用方法应用实例.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\Class类的常用方法应用实例.png" style="zoom:200%;" />
 
 Class02.java（twentyThree.two）
 
@@ -11931,11 +11933,11 @@ public class Class02 {
 
 ### 获取 Class 对象
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取Class对象.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取Class对象.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取Class类对象续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取Class类对象续.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取Class类对象续续.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\获取Class类对象续续.png" style="zoom:200%;" />
 
 GetClass_.java（twentyThree.two）
 
@@ -11985,7 +11987,7 @@ public class GetClass_ {
 
 ### 那些类型有 Class 对象
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\那些类型有Class对象.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\那些类型有Class对象.png" style="zoom:200%;" />
 
 AllTypeClass.java（twentyThree.two）
 
@@ -12024,7 +12026,7 @@ public class AllTypeClass {
 
 ### 类加载基本说明
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载基本说明.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载基本说明.png" style="zoom:200%;" />
 
 ClassLoad_.java（twentyThree.two）
 
@@ -12064,23 +12066,23 @@ public class ClassLoad_ {
 
 ### 类加载过程图
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载过程图.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载过程图.png" style="zoom:200%;" />
 
 ### 类加载各阶段完成任务
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载各阶段完成任务.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载各阶段完成任务.png" style="zoom: 200%;" />
 
 ### 类加载加载阶段
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载加载阶段.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载加载阶段.png" style="zoom:200%;" />
 
 ### 类加载连接阶段 - 验证
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载连接阶段-验证.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载连接阶段-验证.png" style="zoom:200%;" />
 
 ### 类加载连接阶段 - 准备
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载连接阶段-准备.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载连接阶段-准备.png" style="zoom:200%;" />
 
 ClassLoad02.java（twentyThree.two）
 
@@ -12110,13 +12112,13 @@ class A{
 
 ### 类加载连接阶段 - 解析
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载连接阶段-解析.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载连接阶段-解析.png" style="zoom:200%;" />
 
 
 
 ### 类加载初始化
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载初始化.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\类加载初始化.png" style="zoom:200%;" />
 
 ClassLoad03.java（twentyThree.two）
 
@@ -12169,7 +12171,7 @@ class B{
 
 ### 第一组
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第一组.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第一组.png" style="zoom:200%;" />
 
 ReflectionUtils.java（twentyThree.three）
 
@@ -12273,19 +12275,19 @@ class Person extends A implements IA,IB{
 
 ### 第二组
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第二组.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第二组.png" style="zoom:200%;" />
 
 
 
 ### 第三组
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第三组.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第三组.png" style="zoom:200%;" />
 
 
 
 ### 第四组
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第四组.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射获取类的结构信息第四组.png" style="zoom:200%;" />
 
 ```java
 @Test
@@ -12328,9 +12330,9 @@ public void api02() throws ClassNotFoundException{
 
 ### 通过反射创建对象
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射创建对象.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射创建对象.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射创建对象案例演示.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射创建对象案例演示.png" style="zoom:200%;" />
 
 ReflecCreateInstance.java（twentyThree.three）
 
@@ -12396,7 +12398,7 @@ class User{//User类
 
 ### 通过反射访问类中的成员（属性）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射访问类中的成员.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射访问类中的成员.png" style="zoom:200%;" />
 
 ReflecAccessProperty.java（twentyThree.three）
 
@@ -12448,9 +12450,9 @@ class Student{
 
 ### 通过反射访问类中的成员（方法）
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射访问类中的成员访问方法.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射访问类中的成员访问方法.png" style="zoom:200%;" />
 
-![](C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射访问类中的成员-方法案例演示.png)
+<img src="C:\Users\FY\Desktop\笔记\学习笔记\JavaSE_image\通过反射访问类中的成员-方法案例演示.png" style="zoom:200%;" />
 
 ReflecAccessMethod.java（twentyThree.three）
 
